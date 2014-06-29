@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: updatemanager 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-10 11:02+0200\n"
+"PO-Revision-Date: 2014-06-26 09:56+0100\n"
+"Last-Translator: Igor Cheprasov <i-cheprasov@live.ru>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: ru\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/bin/updatemanager:17
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:114
+msgid "Please enter your password"
+msgstr "Пожалуйста, введите пароль"
+
+#: usr/bin/updatemanager:81
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:50
+msgid "Update Manager"
+msgstr "Менеджер обновлений"
+
+#: usr/bin/updatemanager:82
+msgid ""
+"Update Manager cannot be started in a live environment\n"
+"You can use the --force argument to start UM in a live environment"
+msgstr ""
+"Менеджер обновлений не может быть запущен в live-режиме.\n"
+"Для принудительного запуска используйте --force"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:79
+msgid "SolydXK Update Manager"
+msgstr "Менеджер обновлений SolydXK"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:80
+msgid "Install"
+msgstr "Установить"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:81
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:47
+msgid "Refresh"
+msgstr "Обновить"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:82
+msgid "Output"
+msgstr "Вывод"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:83
+msgid "Information"
+msgstr "Информация"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:84
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:56
+msgid "Preferences"
+msgstr "Настройки"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:85
+msgid "Packages"
+msgstr "Пакеты"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:86
+msgid "Your system is up to date"
+msgstr "Ваша система в актуальном состоянии"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:124
+msgid "Gathering information..."
+msgstr "Сбор информации..."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:138
+msgid "Version"
+msgstr "Версия"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:175
+msgid "Continue installation?"
+msgstr "Продолжить установку?"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:176
+msgid "Continue emergency installation?"
+msgstr "Продолжить аварийную установку?"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:318
+msgid "Please enter your password to restart the update manager"
+msgstr "Пожалуйста, введите пароль чтобы перезапустить Менеджер обновлений"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:353
+#, python-format
+msgid ""
+"Another program is locking the apt cache\n"
+"\n"
+"Please, close the program before refreshing:\n"
+"* %s"
+msgstr ""
+"Другое приложение блокирует кэш apt\n"
+"\n"
+"Пожалуйста, закройте приложение перед обновлением:\n"
+"* %s"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+msgid "Package"
+msgstr "Пакет"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+msgid "Current version"
+msgstr "Текущая версия"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+msgid "New version"
+msgstr "Новая версия"
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:36
+msgid "Refreshing update list..."
+msgstr "Обновление списка..."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:38
+msgid "Installing updates..."
+msgstr "Установка обновлений..."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:49
+msgid "Sources changed: start UM to refresh"
+msgstr "Источники приложений изменены: запустите МО для обновления"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:24
+msgid "The following packages will be upgraded:"
+msgstr "Следующие пакеты будут обновлены:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:26
+msgid "The following NEW packages will be installed:"
+msgstr "Следующие НОВЫЕ пакеты будут установлены:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:28
+msgid "The following packages will be REMOVED:"
+msgstr "Следующие пакеты будут УДАЛЕНЫ:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:30
+msgid "The following packages have been kept back:"
+msgstr "Следующие пакеты будут оставлены без изменений:"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:76
+msgid "Update Manager Preferfences"
+msgstr "Настройки Менеджера обновлений"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:77
+msgid "Save mirrors"
+msgstr "Сохранить зеркала"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:78
+msgid "Check mirrrors speed"
+msgstr "Проверить скорость зеркал"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:79
+msgid "Remove"
+msgstr "Удалить"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:80
+msgid "Blacklist"
+msgstr "Черный список"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:81
+msgid "Repository mirrors"
+msgstr "Зеркала репозиториев"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:82
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:84
+msgid "Blacklisted packages"
+msgstr "Пакеты в черном списке"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:83
+msgid "Select the fastest production repository"
+msgstr "Выберите наиболее быстрое зеркало"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:85
+msgid "Available packages"
+msgstr "Доступные пакеты"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:187
+msgid ""
+"You are pointing to the testing repositories.\n"
+"\n"
+"Only production repositories do have mirrors.\n"
+"Please change to production manually."
+msgstr ""
+"Вы переключены на тестовые репозитории.\n"
+"\n"
+"Только у репозиториев официального выпуска есть зеркала.\n"
+"Пожалуйста, перейдите на официальный выпуск вручную."
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Current"
+msgstr "Текущий"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Country"
+msgstr "Страна"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Repository"
+msgstr "Репозиторий"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "URL"
+msgstr "Адрес"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Speed"
+msgstr "Скорость"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:48
+msgid "Quit"
+msgstr "Выйти"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:88
+msgid "Refresh finished"
+msgstr "Обновление завершено"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:112
+msgid "Cannot quit: upgrade in progress"
+msgstr "Выход невозможен во время обновления"

@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: updatemanager2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-14 18:05+0200\n"
+"PO-Revision-Date: 2014-06-04 11:07+0100\n"
+"Last-Translator: Stelios Roumeliotis <stel.roum@gmail.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/bin/updatemanager:17
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:114
+msgid "Please enter your password"
+msgstr "Παρακαλώ εισάγετε το συνθηματικό σας"
+
+#: usr/bin/updatemanager:81
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:50
+msgid "Update Manager"
+msgstr "Διαχειριστής ενημερώσεων"
+
+#: usr/bin/updatemanager:82
+msgid ""
+"Update Manager cannot be started in a live environment\n"
+"You can use the --force argument to start UM in a live environment"
+msgstr ""
+"Ο διαχειριστής ενημερώσεων δεν μπορεί να εκκινηθεί σε περιβάλλον live\n"
+"Χρησιμοποιήστε τον διακόπτη --force argument  για να εκκινήσετε τον Διαχ. "
+"Ενημ.  σε περιβάλλον live"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:78
+msgid "SolydXK Update Manager"
+msgstr "Διαχειριστής Ενημερώσεων SolydXK"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:79
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:80
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:47
+msgid "Refresh"
+msgstr "Ενημέρωση"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:81
+msgid "Output"
+msgstr "Κονσόλα"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:82
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:83
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:56
+msgid "Preferences"
+msgstr "Επιλογές"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:84
+msgid "Packages"
+msgstr "Πακέτα"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:85
+msgid "Your system is up to date"
+msgstr "Το σύστημά σας είναι ενημερωμένο"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:124
+msgid "Gathering information..."
+msgstr "Συλλέγονται πληροφορίες.."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:138
+msgid "Version"
+msgstr "Έκδοση"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:175
+msgid "Continue installation?"
+msgstr "Συνέχιση εγκατάστασης;"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:176
+msgid "Continue emergency installation?"
+msgstr "Να συνεχιστεί η εγκατάσταση τής έκτακτης ενημέρωσης;"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:318
+msgid "Please enter your password to restart the update manager"
+msgstr ""
+"Παρακαλώ εισάγετε το συνθηματικό σας για να επανεκκινήσετε τον Διαχ. Ενημ."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:353
+#, python-format
+msgid ""
+"Another program is locking the apt cache\n"
+"\n"
+"Please, close the program before refreshing:\n"
+"* %s"
+msgstr ""
+"Μια άλλη εφαρμογή χρησιμοποιεί την προσωρινή μνήμη τού apt\n"
+"\n"
+"Παρακαλώ, τερματίστε την εφαρμογή πριν την ανανέωση:\n"
+"* %s"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:405
+msgid "blacklisted"
+msgstr "Αποκλεισμένα πακέτο"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:407
+msgid "Package"
+msgstr "Πακέτο"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:407
+msgid "Current version"
+msgstr "Τωρινή έκδοση"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:407
+msgid "New version"
+msgstr "Νέα έκδοση"
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:36
+msgid "Refreshing update list..."
+msgstr "Ανανεώνεται η  λίστα ενημερώσεων.."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:38
+msgid "Installing updates..."
+msgstr "Εγκαθίστανται οι ενημερώσεις.."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:49
+msgid "Sources changed: start UM to refresh"
+msgstr "Οι πηγές άλλαξαν: εκκινήστε τον Διαχ. Ενημ. για να γίνει ανανέωση."
+
+#: usr/lib/solydxk/updatemanager/umapt.py:24
+msgid "The following packages will be upgraded:"
+msgstr "Τα παρακάτω πακέτα θα αναβαθμιστούν:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:26
+msgid "The following NEW packages will be installed:"
+msgstr "Τα παρακάτω ΝΕΑ πακέτα θα εγκατασταθούν:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:28
+msgid "The following packages will be REMOVED:"
+msgstr "Τα παρακάτω πακέτα θα ΑΦΑΙΡΕΘΟΥΝ:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:30
+msgid "The following packages have been kept back:"
+msgstr "Τα παρακάτω πακέτα δεν  αναβαθμίζονται:"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:76
+msgid "Update Manager Preferences"
+msgstr "Επιλογές Διαχειριστή Ενημερώσεων"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:77
+msgid "Save mirrors"
+msgstr "Αποθήκευση αποθετηρίων"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:78
+msgid "Check mirrrors speed"
+msgstr "Έλεγχος ταχύτητας αποθετηρίων"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:79
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:80
+msgid "Blacklist"
+msgstr "Αποκλεισμός"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:81
+msgid "Repository mirrors"
+msgstr "Εναλλακτικά αποθετήρια"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:82
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:84
+msgid "Blacklisted packages"
+msgstr "Αποκλεισμένα πακέτα"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:83
+msgid "Select the fastest production repository"
+msgstr "Επιλογή τού ταχύτερου αποθετηρίου production"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:85
+msgid "Available packages"
+msgstr "Διαθέσιμα πακέτα"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:187
+msgid ""
+"You are pointing to the testing repositories.\n"
+"\n"
+"Only production repositories do have mirrors.\n"
+"Please change to production manually."
+msgstr ""
+"Χρησιμοποιείτε τα αποθετήρια για testing.\n"
+"\n"
+"Μόνο τα αποθετήρια για production έχουν εναλλακτικές επιλογές.\n"
+"Παρακαλώ γυρίστε σε production χειροκίνητα."
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Current"
+msgstr "Επιλεγμένο"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Country"
+msgstr "Χώρα"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Repository"
+msgstr "Αποθετήριο"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "URL"
+msgstr "Διεύθυνση"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:48
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:88
+msgid "Refresh finished"
+msgstr "Η ανανέωση ολοκληρώθηκε"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:112
+msgid "Cannot quit: upgrade in progress"
+msgstr "Αδυναμία εγκατάλειψης: η ενημερωση είναι σε εξέλιξη."
+
+#~ msgid "There were errors. Please, run the following command:"
+#~ msgstr "Παρουσιάστηκαν σφάλματα. Παρακαλώ, τρέξτε την παρακάτω εντολή:"

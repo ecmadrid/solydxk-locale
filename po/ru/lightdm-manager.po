@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LightDM Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-03 10:09+0200\n"
+"PO-Revision-Date: 2014-06-26 09:56+0100\n"
+"Last-Translator: Igor Cheprasov <i-cheprasov@live.ru>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: ru\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:69
+msgid "Users"
+msgstr "Пользователи"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:70
+#: usr/lib/lightdm-manager/lightdm-manager.py:205
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:71
+msgid "Background"
+msgstr "Фон"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:72
+msgid "Save"
+msgstr "Сохранить"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:154
+msgid "Auto-login"
+msgstr "Авто-логин"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:163
+msgid "Theme"
+msgstr "Тема"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:177
+msgid "Auto-login user"
+msgstr "Авто-логин пользователя"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:177
+msgid ""
+"The auto-login user has changed\n"
+"\n"
+"Do you want to save the new settings?"
+msgstr ""
+"Пользователь для авто-логина изменен\n"
+"\n"
+"Хотите сохранить новые настройки?"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:185
+#: usr/lib/lightdm-manager/lightdm-manager.py:191
+#: usr/lib/lightdm-manager/lightdm-manager.py:223
+msgid "Saved"
+msgstr "Сохранено"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:185
+#, python-format
+msgid ""
+"Auto-login user saved:\n"
+"\n"
+"%(usr)s"
+msgstr ""
+"Авто-логин пользователя сохранен:\n"
+"\n"
+"%(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:186
+#, python-format
+msgid "New auto-login user: %(usr)s"
+msgstr "Новый авто-логин пользователя: %(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:191
+msgid "Auto-login has been disabled."
+msgstr "Авто-логин был отключен."
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:192
+msgid "Auto-login disabled"
+msgstr "Авто-логин отключен"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:205
+msgid ""
+"Appearance settings have changed\n"
+"\n"
+"Do you want to save these new settings?"
+msgstr ""
+"Настройки внешнего вида изменены\n"
+"\n"
+"Хотите сохранить новые настройки?"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:213
+#, python-format
+msgid "Theme: %(theme)s"
+msgstr "Тема: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:221
+#, python-format
+msgid "Background: %(bg)s"
+msgstr "Заставка: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:223
+#, python-format
+msgid ""
+"LightDM appearance saved:\n"
+"\n"
+"%(msg)s"
+msgstr ""
+"Внешний вид LightDM сохранен:\n"
+"\n"
+"%(msg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:232
+#, python-format
+msgid "Current background: %(bg)s"
+msgstr "Текущая заставка: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:237
+msgid "No background set"
+msgstr "Заставка не установлена"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:253
+#, python-format
+msgid "Auto-login user selected: %(usr)s"
+msgstr "Пользователь для авто-логина: %(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:262
+#, python-format
+msgid "New background: %(bg)s"
+msgstr "Новая заставка: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:271
+#, python-format
+msgid "New theme: %(theme)s"
+msgstr "Новая тема: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:273
+msgid "No Theme"
+msgstr "Нет темы"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:273
+msgid ""
+"Directory does not contain a valid theme engine:\n"
+"\n"
+"Please, choose another theme."
+msgstr ""
+"Директория не содержит подходящих тем:\n"
+"\n"
+"Пожалуйста, выберите другую тему."
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:274
+#, python-format
+msgid "No valid theme: %(dir)s"
+msgstr "Нет подходящих тем: %(dir)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:379
+msgid "Images"
+msgstr "Изображения"
+
+#: usr/lib/lightdm-manager/main.py:57
+#, python-format
+msgid "Write debug information to file: %(path)s"
+msgstr "Записывать отладочную информацию в файл: %(path)s"
+
+#: usr/lib/lightdm-manager/main.py:61
+#, python-format
+msgid "Machine info: %(info)s"
+msgstr "Информация о компьютере: %(info)s"
+
+#: usr/lib/lightdm-manager/main.py:63
+#, python-format
+msgid "lightdm-manager version: %(version)s"
+msgstr "Менеджер LightDM - версия: %(version)s"
+
+#: usr/lib/lightdm-manager/main.py:87 usr/lib/lightdm-manager/main.py:89
+msgid "Please enter your password"
+msgstr "Введите пароль"
+
+#: usr/lib/lightdm-manager/main.py:95
+msgid "LightDM Manager - Live environment"
+msgstr "Менеджер LightDM - Live-режим"
+
+#: usr/lib/lightdm-manager/main.py:96
+msgid ""
+"LightDM Manager cannot run in a live environment\n"
+"\n"
+"To force start, use the --force argument"
+msgstr ""
+"Менеджер LightDM не может быть запущен в live-режиме\n"
+"\n"
+"Для принудительного запуска используйте --force"
+
+#: usr/lib/lightdm-manager/main.py:100
+msgid "LightDM Manager - Debian based"
+msgstr "LightDM Manager - Debian-based"
+
+#: usr/lib/lightdm-manager/main.py:101
+msgid "LightDM Manager can only run on Debian based distributions"
+msgstr ""
+"Менеджер LightDM может быть запущен только в Debian-based дистрибутивах"
+
+#: usr/lib/lightdm-manager/main.py:105
+msgid "LightDM Manager"
+msgstr "Менеджер LightDM"
+
+#: usr/lib/lightdm-manager/main.py:106
+msgid "LightDM not installed - quitting."
+msgstr "LightDM не установлен - выход."

@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: solydxk-sws 0.5.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-29 15:52+0200\n"
+"PO-Revision-Date: 2013-05-29 18:59-0600\n"
+"Last-Translator: \n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: MEXICO\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../../ddm/src/usr/lib/ddm/execcmd.py:18
+#, python-format
+msgid "Command to execute: %(cmd)s"
+msgstr "Comando a ejecutar: %(cmd)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:113
+#, python-format
+msgid "Search for extensions: %(ext)s"
+msgstr "Buscar extensiones: %(ext)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:131
+#, python-format
+msgid "File with extension found: %(path)s"
+msgstr "Archivo con extensiones encontrado: %(path)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:136
+#, python-format
+msgid "File found: %(path)s"
+msgstr "Archivo encontrado: %(path)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:399
+#, python-format
+msgid "Resolution added: %(res)s"
+msgstr "Resolución añadida: %(res)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:417
+#, python-format
+msgid "Package is installed: %(package)s"
+msgstr "El paquete está instalado: %(package)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:421
+#, python-format
+msgid "Package not installed: %(package)s"
+msgstr "Paquete no instalado: %(package)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:425
+#, python-format
+msgid "Package not found: %(package)s"
+msgstr "Paquete no encontrado: %(package)s"
+
+#: ../../ddm/src/usr/lib/ddm/functions.py:429
+#, python-format
+msgid "Could not get status info for package: %(package)s"
+msgstr "No se puede obtener información del estado del paquete: %(package)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:59
+#, python-format
+msgid "Create list store eval string: %(eval)s"
+msgstr "Crear una cadena de  list store eval: %(eval)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:64
+msgid "Clear existing list store"
+msgstr "Limpiar la list store existente"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:73
+#, python-format
+msgid "First item is column name (multi-column list): %(iscolname)s"
+msgstr "El primer elemento es el nombre de la columna (multi-column list): %(iscolname)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:79
+#, python-format
+msgid "First item is column name (single-column list): %(iscolname)s"
+msgstr "El primer elemento es el nombre de la columna (single-column list): %(iscolname)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:84
+#, python-format
+msgid "Create column names: %(cols)s"
+msgstr "Crear los nombres de las columnas: %(cols)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:91
+msgid "First item is column name: skip first item"
+msgstr "El primer elemento es el nombre de la columna: saltar el primer elemento"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:119
+#, python-format
+msgid "Add data to list store: %(data)s"
+msgstr "Ingresar datos a la list store: %(data)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:123
+#, python-format
+msgid "Add data to top of list store: %(totop)s"
+msgstr "Ingresar datos al inicio de la list store: %(totop)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:126
+#, python-format
+msgid "Add data to bottom of list store: %(tobottom)s"
+msgstr "Añadir datos al final de la list store: %(tobottom)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:134
+#, python-format
+msgid "Last visible column nr: %(colnr)d"
+msgstr "Última columna visible nr: %(colnr)d"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:143
+#, python-format
+msgid "Hide column nr: %(colnr)d"
+msgstr "Ocultar columna nr: %(colnr)d"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:168
+#, python-format
+msgid "Create column: %(col)s"
+msgstr "Crear columna: %(col)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:178
+msgid "Check box found: add toggle function"
+msgstr "Marque la casilla encontrada: añadir función toggle "
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:183
+#, python-format
+msgid "Last column fills treeview: %(colnr)d"
+msgstr "Last column fills treeview: %(colnr)d"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:188
+#, python-format
+msgid "Column added: %(col)s"
+msgstr "Columna añadida: %(col)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:190
+#, python-format
+msgid "Column already exists: %(col)s"
+msgstr "La columna ya existe: %(col)s"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:197
+msgid "Add Liststore to Treeview"
+msgstr "Add Liststore to Treeview"
+
+#: ../../ddm/src/usr/lib/ddm/treeview.py:205
+#, python-format
+msgid "Scrolled to selected row: %(row)d"
+msgstr "Desplazar a la fila seleccionada: %(row)d"
+
+#: usr/lib/solydxk/sws/sws.py:76
+#: usr/lib/solydxk/sws/sws.py:77
+#: usr/lib/solydxk/sws/sws.py:78
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: usr/lib/solydxk/sws/sws.py:79
+msgid "Drivers"
+msgstr "Controladores"
+
+#: usr/lib/solydxk/sws/sws.py:80
+msgid "Community"
+msgstr "Comunidad"
+
+#: usr/lib/solydxk/sws/sws.py:81
+msgid "Contribute"
+msgstr "Contribuya"
+
+#: usr/lib/solydxk/sws/sws.py:82
+msgid "Open"
+msgstr "Abrir"
+
+#: usr/lib/solydxk/sws/sws.py:83
+msgid "Show at startup"
+msgstr "Mostrar al inicio"
+
+#: usr/lib/solydxk/sws/sws.py:84
+msgid "Close"
+msgstr "Cerrar"
+
+#: usr/lib/solydxk/sws/sws.py:172
+msgid "Start DDM"
+msgstr "Iniciar DDM"
+
+#: usr/lib/solydxk/sws/sws.py:178
+msgid "Hardware"
+msgstr "Hardware"
+
+#: usr/lib/solydxk/sws/sws.py:178
+msgid "Driver"
+msgstr "Controlador"
+
+#: usr/lib/solydxk/sws/sws.py:182
+msgid "No supported third party drivers needed"
+msgstr "Se necesitan controladores de terceros no soportados"
+
+#: usr/lib/solydxk/sws/sws.py:202
+#: usr/lib/solydxk/sws/sws.py:223
+msgid "Show information"
+msgstr "Mostrar información"
+
+#: usr/lib/solydxk/sws/sws.py:239
+#, python-format
+msgid "Open URL: %(url)s"
+msgstr "Abrir URL: %(url)s"
+
+#: usr/lib/solydxk/sws/sws.py:242
+#, python-format
+msgid "Start program: %(prg)s"
+msgstr "Iniciar el programa: %(prg)s"
+
+#: usr/lib/solydxk/sws/sws.py:245
+msgid "Nothing to open"
+msgstr "Nada por abrir"
+
+#: usr/lib/solydxk/sws/sws.py:338
+msgid "Flag file found"
+msgstr "Flag file encontrado"
+
+#: usr/lib/solydxk/sws/sws.py:341
+msgid "Flag file not found"
+msgstr "Flag file no encontrado"
+
+#: usr/lib/solydxk/sws/sws.py:348
+msgid "Homepage"
+msgstr "Página de inicio"
+
+#: usr/lib/solydxk/sws/sws.py:350
+msgid "Forums"
+msgstr "Foros"
+
+#: usr/lib/solydxk/sws/sws.py:352
+msgid "Tutorials"
+msgstr "Tutoriales"
+
+#: usr/lib/solydxk/sws/sws.py:354
+msgid "Chat room"
+msgstr "Cuarto de charla"
+
+#: usr/lib/solydxk/sws/sws.py:358
+msgid "Get involved"
+msgstr "Involúcrese"
+
+#: usr/lib/solydxk/sws/sws.py:360
+msgid "Donations"
+msgstr "Donaciones"
+
+#: usr/lib/solydxk/sws/sws.py:362
+msgid "Sponsors"
+msgstr "Patrocinadores"
+
+#: usr/lib/solydxk/sws/sws.py:364
+msgid "Partners"
+msgstr "Socios"
+
+#: usr/lib/solydxk/sws/main.py:46
+msgid "Flag file found: exiting"
+msgstr "Flag file encontrado: saliendo"
+
+#: usr/lib/solydxk/sws/main.py:53
+#, python-format
+msgid "Startup command: %(cmd)s"
+msgstr "Comando de inicio %(cmd)s"
+

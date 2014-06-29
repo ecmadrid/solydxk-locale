@@ -1,0 +1,687 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: updatemanager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-03 08:31+0200\n"
+"PO-Revision-Date: 2013-12-26 22:06+0200\n"
+"Last-Translator: Taylan Tatlı <taylantatli90@gmail.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: tr\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:123
+#: usr/lib/solydxk/updatemanager/threadClasses.py:294
+#: usr/lib/solydxk/updatemanager/threadClasses.py:370
+msgid "Checking for updates"
+msgstr "Güncelleştirmeler denetleniyor"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:125
+#: usr/lib/solydxk/updatemanager/updatemanager.py:193
+#: usr/lib/solydxk/updatemanager/updatemanager.py:411
+#: usr/lib/solydxk/updatemanager/updatemanager.py:637
+#: usr/lib/solydxk/updatemanager/updatemanager.py:867
+#: usr/lib/solydxk/updatemanager/updatemanager.py:896
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1109
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1111
+msgid "Update Manager"
+msgstr "Güncelleştirme Yöneticisi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:156
+#: usr/lib/solydxk/updatemanager/updatemanager.py:656
+msgid "Ignored packages"
+msgstr "Yoksayılan paketler"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:164
+msgid "Date"
+msgstr "Tarih"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:167
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1304
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1406
+msgid "Package"
+msgstr "Paket"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:170
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1308
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1412
+msgid "Old version"
+msgstr "Eski sürüm"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:173
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1312
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1418
+msgid "New version"
+msgstr "Yeni sürüm"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:194
+msgid "Software Updates"
+msgstr "Yazılım Güncelleştirmeleri"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:195
+msgid "Show and install available updates"
+msgstr "Mevcut güncelleştirmeleri göster ve kur"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:381
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1239
+msgid "No updates selected"
+msgstr "Hiçbir güncelleştirme seçilmedi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:402
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1241
+#, python-format
+msgid "%(selected)d update selected (%(size)s)"
+msgstr "%(selected)d güncelleştirme seçildi (%(size)s)"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:404
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1243
+#, python-format
+msgid "%(selected)d updates selected (%(size)s)"
+msgstr "%(selected)d güncelleştirme seçildi (%(size)s)"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:637
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1381
+msgid "Preferences"
+msgstr "Seçenekler"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:639
+msgid "Auto-Refresh"
+msgstr "Otomatik Olarak Tazele"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:640
+msgid "Refresh the list of updates every:"
+msgstr "Güncelleştirme listesi tazeleme aralığı:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:641
+msgid ""
+"Note: The list only gets refreshed while the update manager window is closed "
+"(system tray mode)."
+msgstr ""
+"Not: Liste, yalnızca güncelleştirme yöneticisi penceresi kapatıldığında "
+"(sistem tepsisi kipi) tazelenir."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:643
+msgid "Update Method"
+msgstr "Güncelleştirme Yöntemi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:644
+msgid "Icons"
+msgstr "Simgeler"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:645
+msgid "Icon"
+msgstr "Simge"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:646
+msgid "Status"
+msgstr "Durum"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:647
+msgid "New Icon"
+msgstr "Yeni Simge"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:648
+msgid "Busy"
+msgstr "Meşgul"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:649
+msgid "System up-to-date"
+msgstr "Sistem güncel"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:650
+msgid "Updates available"
+msgstr "Güncelleştirmeler mevcut"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:651
+msgid "Error"
+msgstr "Hata"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:652
+msgid "Unknown state"
+msgstr "Bilinmeyen durum"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:653
+msgid "Applying updates"
+msgstr "Güncelleştirmeler uygulanıyor"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:654
+msgid "Startup delay (in seconds):"
+msgstr "Başlatma gecikmesi (saniye):"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:655
+msgid "Internet check (domain name or IP address):"
+msgstr "İnternet kontrolü (alan adı veya IP adresi):"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:657
+msgid "Repository mirrors"
+msgstr "Kullanılan Yansılar:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:658
+msgid "Select the fastest production repository"
+msgstr "En hızlı production deposunu seç"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:660
+msgid "Check mirrors speed"
+msgstr "Yansı hızlarını kontrol et"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:661
+msgid "Close Synaptic progress window after upgrade"
+msgstr "Yükseltmeden sonra Synaptic işlem ekranını kapat"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:674
+msgid "minutes"
+msgstr "dakika"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:675
+msgid "hours"
+msgstr "saat"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:676
+msgid "days"
+msgstr "gün"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:738
+msgid "Current"
+msgstr "Şimdiki"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:738
+msgid "Country"
+msgstr "Ülke"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:738
+msgid "Repository"
+msgstr "Depo"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:738
+msgid "URL"
+msgstr "URL"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:738
+msgid "Speed"
+msgstr "Hız"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:822
+msgid "Please enter a package name:"
+msgstr "Lütfen bir paket adı girin:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:823
+msgid "Ignore a package"
+msgstr "Bir paketi yoksay"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:827
+msgid "Package name:"
+msgstr "Paket adı:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:829
+msgid "All available upgrades for this package will be ignored."
+msgstr "Bu paket için mevcut olan tüm yükseltmeler yoksayılacak."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:867
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1396
+msgid "History of updates"
+msgstr "Güncelleştirme geçmişi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:896
+msgid "Update Pack Info"
+msgstr "Paket Bilgisini Güncelleştir"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:899
+msgid "Your system configuration:"
+msgstr "Sistem yapılandırmanız:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:900
+msgid "Current Update Pack available:"
+msgstr "Kullanılabilir Mevcut Güncelleştirme Paketi:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:901
+msgid "Latest Update Pack used by this system:"
+msgstr "Sistem tarafından kullanılan son Güncelleştirme Paketi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:904
+msgid "Could not identify your APT sources"
+msgstr "APT kaynaklarınız tanımlanamadı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:916
+msgid "Your system is pointing to the LTS repository"
+msgstr "Sisteminiz LTS deposuna bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:997
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1001
+msgid "Your system is pointing to "
+msgstr "Sisteminizin bağlı olduğu depo"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:997
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1001
+msgid "These repositories conflict with each other"
+msgstr "Bu depolar, birbirleriyle çakışıyor"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1005
+msgid "Your system is not pointing to the SolydXK repositories"
+msgstr "Sisteminiz SolydXK depolarına bağlı değil"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1005
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1009
+msgid "Add \"deb http://"
+msgstr "Ekle \"deb http://"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1009
+msgid "Your system is not pointing to any Debian repository"
+msgstr "Sisteminiz, hiçbir Debian deposuna bağlı değil"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1013
+msgid "Your system is pointing directly to Debian"
+msgstr "Sisteminiz, doğrudan Debian depolarına bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1017
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1030
+msgid "Your system is pointing directly at deb-multimedia.org"
+msgstr "Sisteminiz, doğrudan deb-multimedia.org deposuna bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1017
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1030
+msgid ""
+"Replace \"deb http://deb-multimedia.org testing main non-free\" with \"deb "
+"http://"
+msgstr ""
+"\"deb http://deb-multimedia.org testing main non-free\" deposunu \"deb "
+"http:// ile değiştir."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1020
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1033
+msgid "Your system is pointing directly at security.debian.org"
+msgstr "Sisteminiz, doğrudan security.debian.org deposuna bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1023
+msgid "Some of your repositories point to production, others point to testing"
+msgstr ""
+"Depolarınızın bir kısmı production deposuna, kalanları da testing deposuna "
+"bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1023
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1036
+msgid "Please check your APT sources."
+msgstr "Lütfen APT kaynaklarınızı kontrol edin"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1026
+msgid "Your system is pointing to the \"SolydXK testing\" repository"
+msgstr "Sisteminiz,  \"SolydXK testing\"  deposuna bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1026
+msgid "This is only recommend for experienced users"
+msgstr "Bu işlem, yalnızca deneyimli kullanıcılar için önerilmektedir"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1033
+msgid ""
+"Replace \"deb http://security.debian.org testing/updates main contrib non-"
+"free\" with \"deb http://"
+msgstr ""
+"\"deb http://security.debian.org testing/updates main contrib non-free\" "
+"deposunu \"deb http:// ile değiştir"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1036
+msgid ""
+"Some of your repositories point to production, but multimedia to testing"
+msgstr ""
+"Depolarınızın bazıları production deposuna bağlı, fakat multimedia, testing "
+"deposuna bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1039
+msgid "Your system is pointing to the \"SolydXK production\" repository"
+msgstr "Sisteminiz, \"SolydXK production\" deposuna bağlı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1087
+msgid "Update Manager Log"
+msgstr "Güncelleştirme Yöneticisi Günlük Kaydı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1089
+msgid "Permissions:"
+msgstr "İzinler:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1090
+msgid "Process ID:"
+msgstr "İşlem Kimliği:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1091
+msgid "Log file:"
+msgstr "Kayıt dosyası:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1109
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1438
+msgid "About"
+msgstr "Hakkında"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1137
+msgid "Exiting - requested by user"
+msgstr "İstek Kullanıcı Tarafından İptal Edildi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1167
+msgid "Launching updatemanager in root mode..."
+msgstr "updatemanager yönetici kipinde çalışıyor..."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1170
+msgid "Please enter your password to start the update manager"
+msgstr "Güncelleştirme yöneticisini başlatmak için lütfen parolanızı girin"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1246
+#: usr/lib/solydxk/updatemanager/threadClasses.py:575
+msgid "B"
+msgstr "B"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1248
+#: usr/lib/solydxk/updatemanager/threadClasses.py:577
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1250
+#: usr/lib/solydxk/updatemanager/threadClasses.py:579
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1252
+#: usr/lib/solydxk/updatemanager/threadClasses.py:581
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1266
+msgid "Ignore updates for this package"
+msgstr "Bu paket için güncelleştirmeleri yoksay"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1282
+#, python-format
+msgid "Launching updatemanager in %(mode)s..."
+msgstr "updatemanager %(mode)s kipinde çalışıyor..."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1299
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1316
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1424
+msgid "Size"
+msgstr "Boyut"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1353
+msgid "Information"
+msgstr "Bilgi"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1354
+msgid "Install Updates"
+msgstr "Güncelleştirmeleri Kur"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1355
+msgid "Refresh"
+msgstr "Tazele"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1356
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1357
+msgid "Clear"
+msgstr "Temizle"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1358
+msgid "Description"
+msgstr "Açıklama"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1359
+msgid "Changelog"
+msgstr "Değişim günlüğü"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1369
+msgid "_File"
+msgstr "Do_sya"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1373
+msgid "Close"
+msgstr "Kapat"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1377
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1388
+msgid "Software sources"
+msgstr "Yazılım kaynakları"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1392
+msgid "_View"
+msgstr "_Görünüm"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1399
+msgid "Log"
+msgstr "Günlük Kaydı"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1402
+msgid "Visible columns"
+msgstr "Görünür sütunlar"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1434
+msgid "_Help"
+msgstr "_Yardım"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1467
+msgid "Testing initial connection"
+msgstr "İlk bağlantı test ediliyor"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1472
+#, python-format
+msgid "Connection to the Internet successful (tried to read http://%(domain)s)"
+msgstr "İnternet bağantısı başarılı (http://%(domain)s okumaya çalışıldı)"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1476
+#, python-format
+msgid ""
+"No connection found (tried to read http://%(domain)s), and to ping %(ping)s "
+"- sleeping for %(delay)s seconds"
+msgstr ""
+"Bağlantı bulunamadı (http://%(domain)s okumaya çalışıldı), ve %(ping)s 'a "
+"ping gönderildi -  %(delay)s saniyedir uykuda"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1479
+msgid "Connection found - checking for updates..."
+msgstr "Bağlantı bulundu - güncelleştirmeler denetleniyor..."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:1493
+#, python-format
+msgid "Exception occured in main thread: %(error)s"
+msgstr "Ana iş parçacığında özel durum oluştu: %(error)s"
+
+#: usr/lib/solydxk/updatemanager/changelogRetriever.py:30
+msgid "Downloading changelog..."
+msgstr "Sürüm notları indiriliyor..."
+
+#: usr/lib/solydxk/updatemanager/changelogRetriever.py:56
+#: usr/lib/solydxk/updatemanager/changelogRetriever.py:67
+msgid "No changelog available"
+msgstr "Sürüm notları bulunamadı"
+
+#: usr/lib/solydxk/updatemanager/changelogRetriever.py:67
+msgid ""
+"Click on Edit->Software Sources and tick the 'Source code' option to enable "
+"access to the changelogs"
+msgstr ""
+"Sürüm notlarına erişimi etkinleştirmek için Düzenle->Yazılım Kaynakları "
+"seçeneğine tıklayın ve 'Kaynak kodu' seçeneğini işaretleyin"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:106
+msgid "Install requested by user - check packages to install"
+msgstr ""
+"Kullanıcı tarafından kurulum istendi - kurulum için paketler kontrol ediliyor"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:142
+msgid "This upgrade will trigger additional changes"
+msgstr "Bu güncelleştirme, ek değişiklikleri tetikleyecek"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:150
+msgid "The following package will be removed:"
+msgstr "Aşağıdaki paket kaldırılacak:"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:152
+#, python-format
+msgid "The following %d packages will be removed:"
+msgstr "Aşağıdaki %d paket kaldırılacak:"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:180
+msgid "The following package will be installed:"
+msgstr "Aşağıdaki paket kurulacak:"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:182
+#, python-format
+msgid "The following %d packages will be installed:"
+msgstr "Aşağıdaki %d paket kurulacak:"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:223
+msgid "Installing updates"
+msgstr "Güncelleştirmeler yükleniyor"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:231
+#, python-format
+msgid "Pre-install script started: %(pre)s"
+msgstr "Kurulum öncesi script başlatıldı: %(pre)s"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:235
+msgid "Launch Synaptic to start the upgrade"
+msgstr "Yükseltmeyi başlatmak için Synaptic'i çalıştırın"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:244
+msgid "Please wait, this can take some time"
+msgstr "Lütfen bekleyin, bu işlem biraz zaman alabilir"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:246
+msgid "Update is complete"
+msgstr "Güncelleştirme tamamlandı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:255
+msgid "Synaptic has finished the upgrade"
+msgstr "Synaptic yükseltmeyi tamamladı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:263
+#, python-format
+msgid "Post-install script started: %(post)s"
+msgstr "Kurulum sonrası script başlatıldı: %(post)s"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:268
+#, python-format
+msgid "write new UP version %(newUpVersion)s to %(uphist)s/"
+msgstr "Yeni UP sürümü %(newUpVersion)s %(uphist)s/ 'e yaz"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:283
+msgid "Installation finished"
+msgstr "Kurulum tamamlandı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:288
+msgid "Updatemanager was updated, restarting it in root mode..."
+msgstr ""
+"Güncelleştirme Yöneticis güncellendi, yönetici kipinde yeniden "
+"başlatılıyor..."
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:291
+msgid "Please enter your password to restart the update manager"
+msgstr ""
+"Güncelleştirme yöneticisini yeniden başlatmak için lütfen parolanızı girin"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:301
+msgid "Installation aborted"
+msgstr "Kurulum durduruldu"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:305
+msgid "No installation needed"
+msgstr "Kurulum gerekmiyor"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:310
+msgid "Could not install the security updates"
+msgstr "Güvenlik güncelleştirmeleri kurulamadı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:357
+msgid "Starting refresh..."
+msgstr "Tazeleme işlemine başlanıyor..."
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:388
+msgid "Another application is using APT"
+msgstr "Başka bir uygulama APT'yi kullanıyor"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:399
+msgid "Finding the list of updates..."
+msgstr "Güncelleştirme listesi aranıyor..."
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:409
+msgid ""
+"An error has occurred while updating the apt cache. Please, check your "
+"sources.list"
+msgstr ""
+"APT önbelliği güncelleştirilirken bir hata meydana geldi. Lütfen, sources."
+"list dosyasını kontrol edin."
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:438
+#: usr/lib/solydxk/updatemanager/threadClasses.py:545
+msgid "Your system is up to date"
+msgstr "Sisteminiz güncel"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:450
+#: usr/lib/solydxk/updatemanager/threadClasses.py:564
+msgid "Could not refresh the list of packages"
+msgstr "Paket listesi tazelenemedi"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:516
+msgid "A new version of the update manager is available"
+msgstr "Güncelleştirme yöneticisinin yeni bir sürümü kullanılabilir durumda"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:522
+#, python-format
+msgid "A new update pack is available (version: %s)"
+msgstr ""
+"Güncelleştirme yöneticisinin yeni bir sürümü kullanılabilir durumda "
+"(version: %s)"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:529
+#, python-format
+msgid "1 recommended update available (%(size)s)"
+msgstr "1 önerilen güncelleştirme mevcut (%(size)s)"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:531
+#, python-format
+msgid "1 recommended update available (%(size)s), 1 ignored"
+msgstr "1 önerilen güncelleştirme mevcut (%(size)s), 1 yoksayıldı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:533
+#, python-format
+msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
+msgstr "1 önerilen güncelleştirme mevcut (%(size)s), %(ignored)d yoksayıldı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:536
+#, python-format
+msgid "%(recommended)d recommended updates available (%(size)s)"
+msgstr "%(recommended)d önerilen güncelleştirme mevcut (%(size)s)"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:538
+#, python-format
+msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
+msgstr ""
+"%(recommended)d önerilen güncelleştirme mevcut (%(size)s), 1 yoksayıldı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:540
+#, python-format
+msgid ""
+"%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
+msgstr ""
+"%(recommended)d önerilen güncelleştirme mevcut (%(size)s), %(ignored)d "
+"yoksayıldı"
+
+#: usr/lib/solydxk/updatemanager/threadClasses.py:550
+msgid "Refresh finished"
+msgstr "Tazeleme tamamlandı"
+
+#: usr/lib/solydxk/updatemanager/mirror.py:62
+#, python-format
+msgid "Server %(mirror)s returns HTTP code %(return_code)d"
+msgstr "Sunucu %(mirror)s HTTP kodu %(return_code)d döndürdü"

@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: solydxk-sws\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-03 09:37+0200\n"
+"PO-Revision-Date: 2013-10-03 10:25+0100\n"
+"Last-Translator: Schoelje <schoelje@solydxk.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/lib/solydxk/sws/sws.py:77 usr/lib/solydxk/sws/sws.py:78
+#: usr/lib/solydxk/sws/sws.py:79
+msgid "Welcome"
+msgstr "Καλωσήλθατε"
+
+#: usr/lib/solydxk/sws/sws.py:80
+msgid "Drivers"
+msgstr "Οδηγοί"
+
+#: usr/lib/solydxk/sws/sws.py:81
+msgid "Community"
+msgstr "Κοινότητα"
+
+#: usr/lib/solydxk/sws/sws.py:82
+msgid "Contribute"
+msgstr "Συνεισφέρετε"
+
+#: usr/lib/solydxk/sws/sws.py:83
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: usr/lib/solydxk/sws/sws.py:84
+msgid "Show at startup"
+msgstr "Εμφάνιση στην εκκίνηση"
+
+#: usr/lib/solydxk/sws/sws.py:85
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: usr/lib/solydxk/sws/sws.py:174
+msgid "Start DDM"
+msgstr "Εκκίνηση DDM"
+
+#: usr/lib/solydxk/sws/sws.py:180
+msgid "Hardware"
+msgstr "Υλικό"
+
+#: usr/lib/solydxk/sws/sws.py:180
+msgid "Driver"
+msgstr "Οδηγός"
+
+#: usr/lib/solydxk/sws/sws.py:184
+msgid "No supported third party drivers needed"
+msgstr "Απαιτούνται μη υποστηριζόμενοι κλειστοί οδηγοί"
+
+#: usr/lib/solydxk/sws/sws.py:204 usr/lib/solydxk/sws/sws.py:228
+msgid "Show information"
+msgstr "Εμφάνιση πληροφοριών"
+
+#: usr/lib/solydxk/sws/sws.py:247
+#, python-format
+msgid "Open URL: %(url)s"
+msgstr "Άνοιγμα διεύθυνσης: %(url)s"
+
+#: usr/lib/solydxk/sws/sws.py:250
+#, python-format
+msgid "Start program: %(prg)s"
+msgstr "Εκκίνηση προγράμματος: %(prg)s"
+
+#: usr/lib/solydxk/sws/sws.py:253
+msgid "Nothing to open"
+msgstr "Τίποτα για άνοιγμα"
+
+#: usr/lib/solydxk/sws/sws.py:358
+msgid "Homepage"
+msgstr "Ιστοσελίδα"
+
+#: usr/lib/solydxk/sws/sws.py:360
+msgid "Forums"
+msgstr "Δημόσια Συζήτηση"
+
+#: usr/lib/solydxk/sws/sws.py:362
+msgid "Tutorials"
+msgstr "Βοηθήματα"
+
+#: usr/lib/solydxk/sws/sws.py:368
+msgid "Chat room"
+msgstr "Chat room"
+
+#: usr/lib/solydxk/sws/sws.py:372
+msgid "Get involved"
+msgstr "Συμμετοχή"
+
+#: usr/lib/solydxk/sws/sws.py:374
+msgid "Donations"
+msgstr "Δωρεές"
+
+#: usr/lib/solydxk/sws/sws.py:376
+msgid "Sponsors"
+msgstr "Σπόνσορες"
+
+#: usr/lib/solydxk/sws/sws.py:378
+msgid "Partners"
+msgstr "Εταίροι"
+
+#: usr/lib/solydxk/sws/main.py:46
+msgid "Flag file found: exiting"
+msgstr "Βρέθηκε αρχείο σημαίας: έξοδος"
+
+#~ msgid "Command to execute: %(cmd)s"
+#~ msgstr "Εντολή προς εκτέλεση: %(cmd)s"
+
+#~ msgid "Search for extensions: %(ext)s"
+#~ msgstr "Έλεγχος για επεκτάσεις: %(ext)s"
+
+#~ msgid "File with extension found: %(path)s"
+#~ msgstr "Βρέθηκε αρχείο με επέκταση: %(path)s"
+
+#~ msgid "File found: %(path)s"
+#~ msgstr "Το αρχείο βρέθηκε: %(path)s"
+
+#~ msgid "Resolution added: %(res)s"
+#~ msgstr "Προστέθηκε ανάλυση: %(res)s"
+
+#~ msgid "Package is installed: %(package)s"
+#~ msgstr "Το πακέτο είναι εγκατεστημένο: %(package)s"
+
+#~ msgid "Package not installed: %(package)s"
+#~ msgstr "Το πακέτο δεν είναι εγκατεστημένο: %(package)s"
+
+#~ msgid "Package not found: %(package)s"
+#~ msgstr "Το πακέτο δεν βρέθηκε: %(package)s"
+
+#~ msgid "Could not get status info for package: %(package)s"
+#~ msgstr "Δεν βρέθηκαν πληροφορίες κατάστασης για το πακέτο: %(package)s"
+
+#~ msgid "Create list store eval string: %(eval)s"
+#~ msgstr "Δημιουργία εκτίμησης γραμμής αποθήκης καταλόγου: %(eval)s"
+
+#~ msgid "Clear existing list store"
+#~ msgstr "Καθαρισμός παρούσας  αποθήκης καταλόγου"
+
+#~ msgid "First item is column name (multi-column list): %(iscolname)s"
+#~ msgstr ""
+#~ "Το πρώτο αντικείμενο είναι όνομα στήλης ( λιστα πολλαπλών στηλών): "
+#~ "%(iscolname)s"
+
+#~ msgid "First item is column name (single-column list): %(iscolname)s"
+#~ msgstr ""
+#~ "Το πρώτο αντικείμενο είναι όνομα στήλης ( λιστα μίας στήλης): "
+#~ "%(iscolname)s"
+
+#~ msgid "Create column names: %(cols)s"
+#~ msgstr "Δημιουργία ονομάτων στηλών: %(cols)s"
+
+#~ msgid "First item is column name: skip first item"
+#~ msgstr ""
+#~ "Το πρώτο αντικείμενο είναι όνομα στήλης: παράλειψη πρώτου αντικειμένου"
+
+#~ msgid "Add data to list store: %(data)s"
+#~ msgstr "Προσθήκη στην αποθήκη καταλόγου: %(data)s"
+
+#~ msgid "Add data to top of list store: %(totop)s"
+#~ msgstr "Προσθήκη δεδομένων στην κορυφή τής αποθήκης καταλόγου: %(totop)s"
+
+#~ msgid "Add data to bottom of list store: %(tobottom)s"
+#~ msgstr "Προσθήκη δεδομένων στο τέλος τής αποθήκης καταλόγου: %(tobottom)s"
+
+#~ msgid "Create column: %(col)s"
+#~ msgstr "Δημιουργία στήλης: %(col)s"
+
+#~ msgid "Check box found: add toggle function"
+#~ msgstr ""
+#~ "Βρέθηκε κουτί ελέγχου: προσθήκη λειτουργίας ενεργοποίησης/απενεργοποίησης"
+
+#~ msgid "Last column fills treeview: %(colnr)d"
+#~ msgstr "Η τελευταία στήλη συμπληρώνει την προβολή δέντρου: %(colnr)d"
+
+#~ msgid "Column added: %(col)s"
+#~ msgstr "Προστέθηκε στήλη: %(col)s"
+
+#~ msgid "Column already exists: %(col)s"
+#~ msgstr "Η στήλη ήδη υπάρχει: %(col)s"
+
+#~ msgid "Add Liststore to Treeview"
+#~ msgstr "Προσθήκη αποθήκης καταλόγου στην προβολή δέντρου"
+
+#~ msgid "Scrolled to selected row: %(row)d"
+#~ msgstr "Έγινε μετάβαση σην επιλεγμένη σειρά: %(row)d"
+
+#~ msgid "Flag file found"
+#~ msgstr "Βρέθηκε αρχείο σημαίας "
+
+#~ msgid "Flag file not found"
+#~ msgstr "Δεν βρέθηκε αρχείο σημαίας"
+
+#~ msgid "Startup command: %(cmd)s"
+#~ msgstr "Εντολή εκκίνησης: %(cmd)s"

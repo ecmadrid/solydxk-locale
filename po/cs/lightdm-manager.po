@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-03 10:09+0200\n"
+"PO-Revision-Date: 2013-12-24 11:13+0100\n"
+"Last-Translator: Schoelje <schoelje@solydxk.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: cs\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:69
+msgid "Users"
+msgstr "Uživatelé"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:70
+#: usr/lib/lightdm-manager/lightdm-manager.py:205
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:71
+msgid "Background"
+msgstr "Pozadí"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:72
+msgid "Save"
+msgstr "uložit"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:154
+msgid "Auto-login"
+msgstr "Auto-login"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:163
+msgid "Theme"
+msgstr "Téma"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:177
+msgid "Auto-login user"
+msgstr "Auto-login uživatel"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:177
+msgid ""
+"The auto-login user has changed\n"
+"\n"
+"Do you want to save the new settings?"
+msgstr ""
+"Auto-login uživatel byl změněn\n"
+"\n"
+"Chcete nové nastavení uložit?"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:185
+#: usr/lib/lightdm-manager/lightdm-manager.py:191
+#: usr/lib/lightdm-manager/lightdm-manager.py:223
+msgid "Saved"
+msgstr "Uloženo"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:185
+#, python-format
+msgid ""
+"Auto-login user saved:\n"
+"\n"
+"%(usr)s"
+msgstr ""
+"Auto-login uživatel uložen:\n"
+"\n"
+"%(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:186
+#, python-format
+msgid "New auto-login user: %(usr)s"
+msgstr "Nový auto-login uživatel: %(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:191
+msgid "Auto-login has been disabled."
+msgstr "Auto-login by mělo být zakázáno."
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:192
+msgid "Auto-login disabled"
+msgstr "Auto-login zakázáno"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:205
+msgid ""
+"Appearance settings have changed\n"
+"\n"
+"Do you want to save these new settings?"
+msgstr ""
+"Nastavení vzhledu bylo změněno\n"
+"\n"
+"Chcete nové nastavení uložit?"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:213
+#, python-format
+msgid "Theme: %(theme)s"
+msgstr "Téma: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:221
+#, python-format
+msgid "Background: %(bg)s"
+msgstr "Pozadí: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:223
+#, python-format
+msgid ""
+"LightDM appearance saved:\n"
+"\n"
+"%(msg)s"
+msgstr ""
+"Vzhled LightDM uloženo:\n"
+"\n"
+"%(msg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:232
+#, python-format
+msgid "Current background: %(bg)s"
+msgstr "Současné pozadí: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:237
+msgid "No background set"
+msgstr "Pozadí nenastaveno"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:253
+#, python-format
+msgid "Auto-login user selected: %(usr)s"
+msgstr "Vybrán Auto-login uživatel: %(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:262
+#, python-format
+msgid "New background: %(bg)s"
+msgstr "Nové pozadí: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:271
+#, python-format
+msgid "New theme: %(theme)s"
+msgstr "Nové téma: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:273
+msgid "No Theme"
+msgstr "Žádné téma"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:273
+msgid ""
+"Directory does not contain a valid theme engine:\n"
+"\n"
+"Please, choose another theme."
+msgstr ""
+"Adresář neobsahuje platné téma:\n"
+"\n"
+"Zvolte prosím jiné téma."
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:274
+#, python-format
+msgid "No valid theme: %(dir)s"
+msgstr "Neplatné téma: %(dir)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:379
+msgid "Images"
+msgstr "Obrázky"
+
+#: usr/lib/lightdm-manager/main.py:57
+#, python-format
+msgid "Write debug information to file: %(path)s"
+msgstr "Uložit ladící informace do souboru: %(path)s"
+
+#: usr/lib/lightdm-manager/main.py:61
+#, python-format
+msgid "Machine info: %(info)s"
+msgstr "Informace o zařízení: %(info)s"
+
+#: usr/lib/lightdm-manager/main.py:63
+#, python-format
+msgid "lightdm-manager version: %(version)s"
+msgstr "Verze lightdm-manageru: %(version)s"
+
+#: usr/lib/lightdm-manager/main.py:87 usr/lib/lightdm-manager/main.py:89
+msgid "Please enter your password"
+msgstr "Zadejte prosím svoje heslo"
+
+#: usr/lib/lightdm-manager/main.py:95
+msgid "LightDM Manager - Live environment"
+msgstr "LightDM Manager - Živé prostředí"
+
+#: usr/lib/lightdm-manager/main.py:96
+msgid ""
+"LightDM Manager cannot run in a live environment\n"
+"\n"
+"To force start, use the --force argument"
+msgstr ""
+"LightDM Manager nemůže běžet v živém prostředí\n"
+"\n"
+"Pro vynucení startu použijte parametr --force"
+
+#: usr/lib/lightdm-manager/main.py:100
+msgid "LightDM Manager - Debian based"
+msgstr "LightDM Manager - Založeno na Debianu"
+
+#: usr/lib/lightdm-manager/main.py:101
+msgid "LightDM Manager can only run on Debian based distributions"
+msgstr "LightDM Manager může běžet pouze na distribucích založených na Debianu"
+
+#: usr/lib/lightdm-manager/main.py:105
+msgid "LightDM Manager"
+msgstr "LightDM Manager"
+
+#: usr/lib/lightdm-manager/main.py:106
+msgid "LightDM not installed - quitting."
+msgstr "LightDM není nainstalován - ukončování."

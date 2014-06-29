@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-10 11:02+0200\n"
+"PO-Revision-Date: 2014-06-26 09:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Japanese\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/bin/updatemanager:17
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:114
+msgid "Please enter your password"
+msgstr "パスワードを入力して下さい"
+
+#: usr/bin/updatemanager:81
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:50
+msgid "Update Manager"
+msgstr "アップデートマネージャー"
+
+#: usr/bin/updatemanager:82
+msgid ""
+"Update Manager cannot be started in a live environment\n"
+"You can use the --force argument to start UM in a live environment"
+msgstr ""
+"アップデートマネージャーは live environment で開始できません\n"
+"--force を付けて live environment から起動して下さい"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:79
+msgid "SolydXK Update Manager"
+msgstr "SolydXK アップデートマネージャー"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:80
+msgid "Install"
+msgstr "インストール"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:81
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:47
+msgid "Refresh"
+msgstr "再読み込み"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:82
+msgid "Output"
+msgstr "出力"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:83
+msgid "Information"
+msgstr "情報"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:84
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:56
+msgid "Preferences"
+msgstr "設定"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:85
+msgid "Packages"
+msgstr "パッケージ"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:86
+msgid "Your system is up to date"
+msgstr "システムは更新されました"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:124
+msgid "Gathering information..."
+msgstr "Gathering information..."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:138
+msgid "Version"
+msgstr "バージョン"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:175
+msgid "Continue installation?"
+msgstr "インストールを続けますか？"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:176
+msgid "Continue emergency installation?"
+msgstr "緊急インストールを続けますか？"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:318
+msgid "Please enter your password to restart the update manager"
+msgstr "パスワードを入力しアップデートマネージャを再起動して下さい"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:353
+#, python-format
+msgid ""
+"Another program is locking the apt cache\n"
+"\n"
+"Please, close the program before refreshing:\n"
+"* %s"
+msgstr ""
+"他のプログラムによって apt キャッシュがロックされています\n"
+"\n"
+"プログラムを閉じて再読み込みして下さい:\n"
+"* %s"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+msgid "Package"
+msgstr "パッケージ"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+msgid "Current version"
+msgstr "現在のバージョン"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:400
+msgid "New version"
+msgstr "新しいバージョン"
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:36
+msgid "Refreshing update list..."
+msgstr "更新リストを再読み込み中..."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:38
+msgid "Installing updates..."
+msgstr "更新インストール中..."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:49
+msgid "Sources changed: start UM to refresh"
+msgstr "ソースを更新: アップデートマネージャを起動すると更新します"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:24
+msgid "The following packages will be upgraded:"
+msgstr "これらのパッケージも更新されます:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:26
+msgid "The following NEW packages will be installed:"
+msgstr "これらの「新しい」パッケージがインストールされます:"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:28
+msgid "The following packages will be REMOVED:"
+msgstr "これらのパッケージは「削除」されます。"
+
+#: usr/lib/solydxk/updatemanager/umapt.py:30
+msgid "The following packages have been kept back:"
+msgstr "これらのパッケージは保留されます:"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:76
+msgid "Update Manager Preferfences"
+msgstr "アップデートマネージャー設定"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:77
+msgid "Save mirrors"
+msgstr "ミラーを保存"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:78
+msgid "Check mirrrors speed"
+msgstr "ミラーの速度を確認"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:79
+msgid "Remove"
+msgstr "削除"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:80
+msgid "Blacklist"
+msgstr "ブラックリスト"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:81
+msgid "Repository mirrors"
+msgstr "リボジトリミラー"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:82
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:84
+msgid "Blacklisted packages"
+msgstr "ブラックリストに入ったパッケージ"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:83
+msgid "Select the fastest production repository"
+msgstr "最も高速なリボジトリを選択"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:85
+msgid "Available packages"
+msgstr "有効なパッケージ"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:187
+msgid ""
+"You are pointing to the testing repositories.\n"
+"\n"
+"Only production repositories do have mirrors.\n"
+"Please change to production manually."
+msgstr ""
+"testing リボジトリを設定しています\n"
+"\n"
+"production repositories だけはミラーがあります\n"
+"手動で production に変更して下さい"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Current"
+msgstr "現在"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Country"
+msgstr "国"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Repository"
+msgstr "リボジトリ"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "URL"
+msgstr "URL"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:238
+msgid "Speed"
+msgstr "速度"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:48
+msgid "Quit"
+msgstr "終了"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:88
+msgid "Refresh finished"
+msgstr "再読み込みを完了しました"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:112
+msgid "Cannot quit: upgrade in progress"
+msgstr "終了できません: 更新作業が行われています"

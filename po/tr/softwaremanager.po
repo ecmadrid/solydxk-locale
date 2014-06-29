@@ -1,0 +1,600 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: softwaremanager 7.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-07 22:50+0200\n"
+"PO-Revision-Date: 2013-12-26 20:55+0200\n"
+"Last-Translator: Taylan Tatlı <taylantatli90@gmail.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: tr\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:62
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:362
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:660
+#: usr/lib/solydxk/softwaremanager/splash.py:20
+#: usr/lib/solydxk/softwaremanager/splash.py:27
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:343
+msgid "Software Manager"
+msgstr "Yazılım Yöneticisi"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:63
+msgid "Install new applications"
+msgstr "Yeni uygulamalar yükle"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:223
+#, python-format
+msgid "%d ongoing actions"
+msgstr "%d devam eden eylemler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:233
+#, python-format
+msgid "Cancel the task: %s"
+msgstr "Görevi iptal et: %s"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:245
+msgid "Waiting"
+msgstr "Bekleniyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:245
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:245
+msgid "Running"
+msgstr "Çalışıyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:245
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:126
+msgid "Finished"
+msgstr "Tamamlandı"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:257
+#, python-format
+msgid "Installing %s"
+msgstr "%s kuruluyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:259
+#, python-format
+msgid "Removing %s"
+msgstr "%s kaldırılıyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:261
+msgid "Updating cache"
+msgstr "Önbellek güncelleniyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:263
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:265
+msgid "No role set"
+msgstr "Rol ayarlanmamış"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:383
+msgid "_File"
+msgstr "Do_sya"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:387
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:128
+msgid "Close"
+msgstr "Kapat"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:391
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:395
+msgid "Preferences"
+msgstr "Seçenekler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:399
+msgid "Search in packages summary (slower search)"
+msgstr "Paket özetlerinde ara (yavaş arama)"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:403
+msgid "Search in packages description (even slower search)"
+msgstr "Paket tanımlarında ara (daha yavaş arama)"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:407
+msgid "Open links using the web browser"
+msgstr "Linkleri web tarayıcısını kullanarak aç"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:411
+msgid "Search while typing"
+msgstr "Yazarken ara"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:424
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:630
+msgid "Account information"
+msgstr "Hesap bilgisi"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:431
+msgid "Software sources"
+msgstr "Yazılım kaynakları"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:435
+msgid "_View"
+msgstr "_Görünüm"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:439
+msgid "Available packages"
+msgstr "Kullanılabilir paketler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:443
+msgid "Installed packages"
+msgstr "Kurulan paketler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:450
+msgid "_Help"
+msgstr "_Yardım"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:454
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:658
+msgid "About"
+msgstr "Hakkında"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:500
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:510
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:976
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:501
+msgid "Please choose a category"
+msgstr "Lütfen bir kategori seçin"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:502
+#, python-format
+msgid "%d packages are currently available"
+msgstr "%d paket şu anda kullanılabilir"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:511
+msgid "Please choose a sub-category"
+msgstr "Lütfen bir alt kategori seçin"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:532
+msgid "No ongoing actions"
+msgstr "Devam eden eylem yok"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:533
+msgid "Active tasks:"
+msgstr "Aktif görevler:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:632
+msgid "Your community account"
+msgstr "Topluluk hesabınız"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:634
+msgid "Fill in your account info to review applications"
+msgstr "Uygulamalara yorum yapabilmek için hesap bilgilerinizi doldurun"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:636
+msgid "Username:"
+msgstr "Kullanıcı adı:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:637
+msgid "Password:"
+msgstr "Parola:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:703
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1530
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1541
+msgid "B"
+msgstr "B"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:705
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1532
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1543
+msgid "KB"
+msgstr "KB"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:707
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1534
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1545
+msgid "MB"
+msgstr "MB"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:709
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1536
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1547
+msgid "GB"
+msgstr "GB"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:731
+msgid "Icon"
+msgstr "Simge"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:735
+msgid "Application"
+msgstr "Uygulama"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:742
+msgid "Score"
+msgstr "Puan"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:764
+msgid "Task"
+msgstr "Görev"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:767
+msgid "Status"
+msgstr "Durum"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:770
+msgid "Progress"
+msgstr "İlerleme"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:865
+msgid "See more reviews"
+msgstr "Daha fazla yoruma bak"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:902
+msgid "Screenshot"
+msgstr "Ekran Görüntüsü"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:911
+msgid "Website"
+msgstr "Websitesi"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:919
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:931
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1552
+msgid "Reviews"
+msgstr "Yorumlar"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:978
+msgid "Featured"
+msgstr "Önerilen"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:981
+msgid "All Packages"
+msgstr "Tüm Paketler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:983
+msgid "Internet"
+msgstr "İnternet"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:984
+msgid "Web"
+msgstr "Web"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:986
+msgid "Email"
+msgstr "E-posta"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:988
+msgid "Chat"
+msgstr "Sohbet"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:990
+msgid "File sharing"
+msgstr "Dosya Paylaşımı"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:993
+msgid "Sound and video"
+msgstr "Sesler ve videolar"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:996
+msgid "Graphics"
+msgstr "Grafikler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:998
+msgid "3D"
+msgstr "3B"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1000
+msgid "Drawing"
+msgstr "Çizim"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1002
+msgid "Photography"
+msgstr "Fotoğrafçılık"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1004
+msgid "Publishing"
+msgstr "Yayıncılık"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1006
+msgid "Scanning"
+msgstr "Taranıyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1008
+msgid "Viewers"
+msgstr "Görüntüleyiciler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1011
+msgid "Office"
+msgstr "Ofis"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1013
+msgid "Games"
+msgstr "Oyunlar"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1014
+msgid "Board games"
+msgstr "Masa oyunları"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1016
+msgid "First-person shooters"
+msgstr "Birinci şahıs nişancı"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1018
+msgid "Real-time strategy"
+msgstr "Gerçek-zamanlı strateji"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1020
+msgid "Turn-based strategy"
+msgstr "Sıra tabanlı strateji"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1022
+msgid "Emulators"
+msgstr "Emülatörler"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1024
+msgid "Simulation and racing"
+msgstr "Simülasyon ve yarış"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1027
+msgid "Accessories"
+msgstr "Donatılar"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1029
+msgid "System tools"
+msgstr "Sistem araçları"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1032
+msgid "Fonts"
+msgstr "Yazı Tipleri"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
+msgid "Science and Education"
+msgstr "Bilim ve Eğitim"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1038
+msgid "Programming"
+msgstr "Programlama"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1218
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1434
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1609
+#, python-format
+msgid "%d reviews"
+msgstr "%d yorum"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1254
+#, python-format
+msgid "%d packages"
+msgstr "%d paket"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1445
+#, python-format
+msgid "Only results in category \"%s\" are shown."
+msgstr "Sadece \"%s\" kategorisindeki sonuçlar gösteriliyor."
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1456
+msgid "Search results"
+msgstr "Arama sonuçları"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1495
+msgid "Hate it"
+msgstr "Nefret ediyorum"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1495
+msgid "Not a fan"
+msgstr "Hayranı değilim"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1495
+msgid "So so"
+msgstr "Eh işte"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1495
+msgid "Like it"
+msgstr "Beğendim"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1495
+msgid "Awesome!"
+msgstr "Harika!"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1512
+msgid "Score:"
+msgstr "Puan:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1513
+msgid "Submit"
+msgstr "Gönder"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1514
+msgid "Your review"
+msgstr "Sizin yorumunuz"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1526
+#, python-format
+msgid "%s (removed)"
+msgstr "%s (kaldırıldı)"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1528
+#, python-format
+msgid "%s (installed)"
+msgstr "%s (kuruldu)"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1549
+msgid "Size:"
+msgstr "Boyut:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1550
+msgid "Version:"
+msgstr "Sürüm:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1551
+msgid "Impact on packages:"
+msgstr "Paketler üzerine etkisi:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1553
+msgid "Your review:"
+msgstr "Sizin yorumunuz:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1554
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1558
+#, python-format
+msgid "%(localSize)s of disk space freed"
+msgstr "%(localSize)s alan boşaltıldı"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1560
+#, python-format
+msgid "%(localSize)s of disk space required"
+msgstr "%(localSize)s boş disk alanı gerekli"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1563
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
+msgstr "%(downloadSize)s indirilecek, %(localSize)s alan boşaltıldı"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1565
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
+msgstr "%(downloadSize)s indirilecek, %(localSize)s boş disk alanı gerekli"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1583
+msgid "Remove"
+msgstr "Sil"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1586
+msgid "Installed"
+msgstr "Kurulu"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1589
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:208
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:442
+msgid "Install"
+msgstr "Yükle"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1592
+msgid "Not installed"
+msgstr "Kurulu değil"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager.py:1613
+msgid "Reviews:"
+msgstr "Yorumlar:"
+
+#: usr/lib/solydxk/softwaremanager/splash.py:28
+#, python-format
+msgid "Gathering information for %d packages..."
+msgstr "%d paketin bilgilleri toplanıyor..."
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:69
+msgid "Backing up your APT sources"
+msgstr "APT kaynaklarınız yedekleniyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:93
+#: usr/lib/solydxk/softwaremanager/remove.py:48
+msgid "Please wait, this can take some time"
+msgstr "Lütfen bekleyin, bu işlem biraz zaman alabilir"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:95
+msgid "Installation is complete"
+msgstr "Kurulum tamamlandı"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:122
+msgid "Restoring your APT sources"
+msgstr "APT kaynaklarınız eski haline getiriliyor"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:205
+msgid "Using the following repositories:"
+msgstr "Aşağıdaki depolar kullanılacak:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:210
+#, python-format
+msgid "Install %s?"
+msgstr "%s yüklensin mi?"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:213
+msgid "The following packages will be installed:"
+msgstr "Aşağıdaki paketler kurulacak:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:224
+msgid "Default repositories"
+msgstr "Varsayılan depolar"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:297
+#, python-format
+msgid "Upgrade %s?"
+msgstr "%s güncellensin mi?"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:299
+msgid "The following packages will be upgraded:"
+msgstr "Aşağıdaki paketler yükseltilecek:"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:300
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:434
+msgid "Find Software"
+msgstr "Yazılım Bul"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:437
+msgid "Go to the SolydXK Software Portal"
+msgstr "SolydXK Yazılım Portal'ına git"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:438
+msgid "Search for a .swm application"
+msgstr ".swm uygulaması ara"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:439
+msgid "Go to the GetDeb Portal"
+msgstr "GetDeb Portal'ına git"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:440
+msgid "Search for a .deb package"
+msgstr ".deb paketi ara"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:441
+msgid "Search"
+msgstr "Ara"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:443
+msgid "Show"
+msgstr "Göster"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:444
+msgid "Go to the Ubuntu repository"
+msgstr "Ubuntu deposuna git"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:445
+msgid "Go to the SolydXK repository"
+msgstr "SolydXK deposuna git"
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:457
+msgid "Your APT sources were corrupted."
+msgstr "APT kaynaklarınız bozulmuş."
+
+#: usr/lib/solydxk/softwaremanager/softwaremanager-args.py:457
+msgid ""
+"Your APT sources were not correctly restored after you last ran "
+"softwaremanager. They now have been restored."
+msgstr ""
+"APT kaynaklarınız son yazılım yöneticisi kullanımınızdan sonra eski haline "
+"düzgün bir şekilde getirilememiş. Şimdi eski haline getirildi."
+
+#: usr/lib/solydxk/softwaremanager/remove.py:50
+msgid "Application removed successfully"
+msgstr "Uygulama başarılı bir şekilde kaldırıldı"
+
+#: usr/lib/solydxk/softwaremanager/remove.py:104
+#, python-format
+msgid "Remove %s?"
+msgstr "%s silinsin mi?"
+
+#: usr/lib/solydxk/softwaremanager/remove.py:107
+msgid "The following packages will be removed:"
+msgstr "Aşağıdaki paketler kaldırılacak:"

@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm-manager 0.0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-30 18:33+0200\n"
+"PO-Revision-Date: 2013-06-20 07:00+0100\n"
+"Last-Translator: Schoelje <schoelje@solydxk.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Language: Polish\n"
+
+#: usr/lib/lightdm-manager/execcmd.py:18
+#, python-format
+msgid "Command to execute: %(cmd)s"
+msgstr "Polecenie do wykonania: %(cmd)s"
+
+#: usr/lib/lightdm-manager/functions.py:113
+#, python-format
+msgid "Search for extensions: %(ext)s"
+msgstr "Szukaj rozszerzeń: %(ext)s"
+
+#: usr/lib/lightdm-manager/functions.py:131
+#, python-format
+msgid "File with extension found: %(path)s"
+msgstr "Znaleziono plik z rozszerzeniem: %(path)s"
+
+#: usr/lib/lightdm-manager/functions.py:136
+#, python-format
+msgid "File found: %(path)s"
+msgstr "Znaleziono plik: %(path)s"
+
+#: usr/lib/lightdm-manager/functions.py:399
+#, python-format
+msgid "Resolution added: %(res)s"
+msgstr "Dodano rozdzielczość: %(res)s"
+
+#: usr/lib/lightdm-manager/functions.py:417
+#, python-format
+msgid "Package is installed: %(package)s"
+msgstr "Zainstalowano pakiet: %(package)s"
+
+#: usr/lib/lightdm-manager/functions.py:421
+#, python-format
+msgid "Package not installed: %(package)s"
+msgstr "Nie zainstalowano pakietu: %(package)s"
+
+#: usr/lib/lightdm-manager/functions.py:425
+#, python-format
+msgid "Package not found: %(package)s"
+msgstr "Nie znaleziono pakietu: %(package)s"
+
+#: usr/lib/lightdm-manager/functions.py:429
+#, python-format
+msgid "Could not get status info for package: %(package)s"
+msgstr "Nie można znaleźć info o statusie pakietu: %(package)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:69
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:70
+#: usr/lib/lightdm-manager/lightdm-manager.py:205
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:71
+msgid "Background"
+msgstr "Tło"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:72
+msgid "Save"
+msgstr "Zapisz"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:154
+msgid "Auto-login"
+msgstr "Auto-logowanie"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:163
+msgid "Theme"
+msgstr "Motyw"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:177
+msgid "Auto-login user"
+msgstr "Autologowanie użytkownika"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:177
+msgid ""
+"The auto-login user has changed\n"
+"\n"
+"Do you want to save the new settings?"
+msgstr ""
+"Zmieniono auto-login\n"
+"\n"
+"Czy chcesz zapisać nowe ustawienia?"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:185
+#: usr/lib/lightdm-manager/lightdm-manager.py:191
+#: usr/lib/lightdm-manager/lightdm-manager.py:223
+msgid "Saved"
+msgstr "Zapisano"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:185
+#, python-format
+msgid ""
+"Auto-login user saved:\n"
+"\n"
+"%(usr)s"
+msgstr ""
+"Auto-login zapisany:\n"
+"\n"
+"%(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:186
+#, python-format
+msgid "New auto-login user: %(usr)s"
+msgstr "Nowy auto-login: %(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:191
+msgid "Auto-login has been disabled."
+msgstr "Automatyczne logowanie nieaktywne."
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:192
+msgid "Auto-login disabled"
+msgstr "Auto-logowanie niemożliwe"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:205
+msgid ""
+"Appearance settings have changed\n"
+"\n"
+"Do you want to save these new settings?"
+msgstr ""
+"Ustawienia wyglądu zostały zmienione\n"
+"\n"
+"Czy chcesz zapisać nowe ustawienia?"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:213
+#, python-format
+msgid "Theme: %(theme)s"
+msgstr "Motyw: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:221
+#, python-format
+msgid "Background: %(bg)s"
+msgstr "Tło: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:223
+#, python-format
+msgid ""
+"LightDM appearance saved:\n"
+"\n"
+"%(msg)s"
+msgstr ""
+"Zapisano wygląd LightDM:\n"
+"\n"
+"%(msg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:232
+#, python-format
+msgid "Current background: %(bg)s"
+msgstr "Bieżące tło: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:237
+msgid "No background set"
+msgstr "Nie wybrano tła"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:253
+#, python-format
+msgid "Auto-login user selected: %(usr)s"
+msgstr "Wybrany auto-login:  %(usr)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:262
+#, python-format
+msgid "New background: %(bg)s"
+msgstr "Nowe tło: %(bg)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:271
+#, python-format
+msgid "New theme: %(theme)s"
+msgstr "Nowy motyw: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:273
+msgid "No Theme"
+msgstr "Brak motywu"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:273
+msgid ""
+"Directory does not contain a valid theme engine:\n"
+"\n"
+"Please, choose another theme."
+msgstr ""
+"Katalog nie zawiera aktualnego silnika motywu:\n"
+"\n"
+"Proszę wybrać inny motyw."
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:274
+#, python-format
+msgid "No valid theme: %(dir)s"
+msgstr "Brak ważnego motywu: %(dir)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:290
+#, python-format
+msgid "Found themedir: %(dir)s and theme name: %(theme)s"
+msgstr "Znaleziono katalog: %(dir)s i nazwę motywu: %(theme)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:346
+#: usr/lib/lightdm-manager/lightdm-manager.py:349
+#, python-format
+msgid "%(conf1)s copied to %(conf2)s.org"
+msgstr "%(conf1)s skopiowano do %(conf2)s.org"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:379
+msgid "Images"
+msgstr "Obrazy"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:393
+#: usr/lib/lightdm-manager/lightdm-manager.py:396
+#, python-format
+msgid "Search %(theme)s in %(dir)s"
+msgstr "Szukaj %(theme)s w %(dir)s"
+
+#: usr/lib/lightdm-manager/lightdm-manager.py:402
+#, python-format
+msgid "Current theme directory: %(dir)s"
+msgstr "Bieżący katalog motywu: %(dir)s"
+
+#: usr/lib/lightdm-manager/main.py:57
+#, python-format
+msgid "Write debug information to file: %(path)s"
+msgstr "Zapisz info o debugowaniu do pliku: %(path)s"
+
+#: usr/lib/lightdm-manager/main.py:61
+#, python-format
+msgid "Machine info: %(info)s"
+msgstr "Informacje o komputerze: %(info)s"
+
+#: usr/lib/lightdm-manager/main.py:63
+#, python-format
+msgid "lightdm-manager version: %(version)s"
+msgstr "lightdm-manager wersja: %(version)s"
+
+#: usr/lib/lightdm-manager/main.py:86 usr/lib/lightdm-manager/main.py:88
+msgid "Please enter your password"
+msgstr "Proszę wpisać hasło"
+
+#: usr/lib/lightdm-manager/main.py:91
+#, python-format
+msgid "Startup command: %(cmd)s"
+msgstr "Polecenie startowe: %(cmd)s"
+
+#: usr/lib/lightdm-manager/main.py:94
+msgid "LightDM Manager - Live environment"
+msgstr "LightDM Menedżer - Środowisko LIve"
+
+#: usr/lib/lightdm-manager/main.py:95
+msgid ""
+"LightDM Manager cannot run in a live environment\n"
+"\n"
+"To force start, use the --force argument"
+msgstr ""
+"LightDM Menedżer nie działa w środowisku live\n"
+"\n"
+"Aby wymusić start użyj argumentu --force"
+
+#: usr/lib/lightdm-manager/main.py:99
+msgid "LightDM Manager - Debian based"
+msgstr "Menedżer LightDM - oparty na Debianie"
+
+#: usr/lib/lightdm-manager/main.py:100
+msgid "LightDM Manager can only run on Debian based distributions"
+msgstr "LightDM działa wyłącznie w dystrybucjach opartych na Debianie"
+
+#: usr/lib/lightdm-manager/main.py:104
+msgid "LightDM Manager"
+msgstr "Menedżer LightDM"
+
+#: usr/lib/lightdm-manager/main.py:105
+msgid "LightDM not installed - quitting."
+msgstr "LightDM niezainstalowany - rezygnacja."
+
+#: usr/lib/lightdm-manager/treeview.py:59
+#, python-format
+msgid "Create list store eval string: %(eval)s"
+msgstr "Utwórz list store eval string: %(eval)s"
+
+#: usr/lib/lightdm-manager/treeview.py:64
+msgid "Clear existing list store"
+msgstr "Wyczyść istniejącą list store"
+
+#: usr/lib/lightdm-manager/treeview.py:73
+#, python-format
+msgid "First item is column name (multi-column list): %(iscolname)s"
+msgstr ""
+"Pierwsza pozycja jest nazwą kolumny (lista wielokolumnowa): %(iscolname)s"
+
+#: usr/lib/lightdm-manager/treeview.py:79
+#, python-format
+msgid "First item is column name (single-column list): %(iscolname)s"
+msgstr ""
+"Pierwsza pozycja jest nazwą kolumny (lista jednokolumnowa): %(iscolname)s"
+
+#: usr/lib/lightdm-manager/treeview.py:84
+#, python-format
+msgid "Create column names: %(cols)s"
+msgstr "Utwórz nazwy kolumn: %(cols)s"
+
+#: usr/lib/lightdm-manager/treeview.py:91
+msgid "First item is column name: skip first item"
+msgstr "Pierwsza pozycja jest nazwą kolumny - pomiń"
+
+#: usr/lib/lightdm-manager/treeview.py:119
+#, python-format
+msgid "Add data to list store: %(data)s"
+msgstr "Dodaj dane do list store: %(data)s"
+
+#: usr/lib/lightdm-manager/treeview.py:123
+#, python-format
+msgid "Add data to top of list store: %(totop)s"
+msgstr "Dodaj dane do początku list store: %(totop)s"
+
+#: usr/lib/lightdm-manager/treeview.py:126
+#, python-format
+msgid "Add data to bottom of list store: %(tobottom)s"
+msgstr "Godaj dane do końca list store: %(tobottom)s"
+
+#: usr/lib/lightdm-manager/treeview.py:134
+#, python-format
+msgid "Last visible column nr: %(colnr)d"
+msgstr "Ostatnia widoczna kolumna nr: %(colnr)d"
+
+#: usr/lib/lightdm-manager/treeview.py:143
+#, python-format
+msgid "Hide column nr: %(colnr)d"
+msgstr "Ukryj kolumnę nr: %(colnr)d"
+
+#: usr/lib/lightdm-manager/treeview.py:168
+#, python-format
+msgid "Create column: %(col)s"
+msgstr "Utwórz kolumnę: %(col)s"
+
+#: usr/lib/lightdm-manager/treeview.py:178
+msgid "Check box found: add toggle function"
+msgstr "Znaleziono pole wyboru - dodaj funkcję przełączania"
+
+#: usr/lib/lightdm-manager/treeview.py:183
+#, python-format
+msgid "Last column fills treeview: %(colnr)d"
+msgstr "Ostatnia kolumna wypełnia TreeView: %(colnr)d"
+
+#: usr/lib/lightdm-manager/treeview.py:188
+#, python-format
+msgid "Column added: %(col)s"
+msgstr "Dodano kolumnę: %(col)s"
+
+#: usr/lib/lightdm-manager/treeview.py:190
+#, python-format
+msgid "Column already exists: %(col)s"
+msgstr "Kolumna istnieje: %(col)s"
+
+#: usr/lib/lightdm-manager/treeview.py:197
+msgid "Add Liststore to Treeview"
+msgstr "Dodaj ListStore do TreeView"
+
+#: usr/lib/lightdm-manager/treeview.py:205
+#, python-format
+msgid "Scrolled to selected row: %(row)d"
+msgstr "Przewinięto do wybranego wiersza: %(row)d"
