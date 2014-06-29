@@ -1,0 +1,52 @@
+A short howto on how to start translating.
+
+1) Download the POT file.
+
+2) Install Poedit: sudo apt-get install poedit
+
+3) Configure Poedit
+   Create a directory where you want to safe your translation files.
+   Start Poedit: Development > Translation > Poedit
+   In Poedit: Edit > Preferences > Translation memory
+   Click "Add" to add the language you're translating to.
+   Click "Generate database", and add the directory you just created.
+   Click "Next" and "Finish", and wait for a long time to finish creating the database.
+
+4) Open the POT file
+   File > New catalog from POT file...
+   Note: If you already made a translation previously, please open the .po file in Poedit, and update with the accompanied .pot file to add any new translations (Catalog > Update from POT File... ).
+
+   Project name and version: e.g.: softwaremanager 7.5.0 (see naming above)
+   Team: SolydXK
+   Team's email address: admin@solydxk.com
+   Language: your language
+   Country: your country
+   Charset: UTF-8
+   Source code charset: utf-8
+
+   Catalog > Automatically translate using TM
+   The more you have translated, the more it will make the translations for you!
+   These translations are "fuzzy", by default, but If the translation is correct, you can click the cloud-button.
+
+5) Start translating
+   Note:
+   If you need to break a long word, you can do so with a hypen.
+   E.g.: thisisavery-longword, would end up like:
+      thisisavery-
+      longword
+   Keep special strings as-is (do not remove, or change in any way): %s, %(tagstring)s, %d, %(tagdigit)d, etc.
+   Some texts are obviously of a debug nature. You can simply copy them (no need to translate)
+
+6) Save the file
+   When you save the file, a .mo file is created. This is the file we need.
+   Note: the .po and the .mo file both have the same name as the package name.
+
+7) Test your translation
+   If you want to test your translation your system needs to be localized in the language you're translating.
+   You can then copy the .mo file to the corresponding locale directory.
+
+   E.g.: I copied my Dutch translation of softwaremanager to:
+   /usr/share/locale/nl/LC_MESSAGES/softwaremanager.mo
+
+
+
