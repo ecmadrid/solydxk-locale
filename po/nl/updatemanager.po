@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-03 09:51+0200\n"
-"PO-Revision-Date: 2014-07-03 10:00+0100\n"
+"POT-Creation-Date: 2014-07-04 19:48+0200\n"
+"PO-Revision-Date: 2014-07-04 19:51+0100\n"
 "Last-Translator: Schoelje <schoelje@solydxk.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "Language: nl\n"
@@ -369,7 +369,7 @@ msgstr ""
 "%s"
 
 #: usr/lib/solydxk/updatemanager/updatemanager.py:431
-#: usr/lib/solydxk/updatemanager/updatemanager.py:681
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
 msgid "Package"
 msgstr "Pakket"
 
@@ -393,11 +393,25 @@ msgstr ""
 "\n"
 "leverde geen resultaten op."
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:516
+#: usr/lib/solydxk/updatemanager/updatemanager.py:490
+msgid ""
+"Do you want to completely clean the apt cache?\n"
+"\n"
+"When No, only unavailable installation packages are removed."
+msgstr ""
+"Wilt u de apt cache helemaal schoon maken?\n"
+"\n"
+"Nee: alleen niet meer beschikbare installatiepakketten worden verwijderd."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:496
+msgid "Apt cache has been cleaned."
+msgstr "Apt cache is schoongemaakt."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:525
 msgid "Execute maintenance changes?"
 msgstr "Onderhoud uitvoeren?"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:623
+#: usr/lib/solydxk/updatemanager/updatemanager.py:635
 #, python-format
 msgid ""
 "Another program is locking the apt cache\n"
@@ -410,15 +424,15 @@ msgstr ""
 "Sluit het programma voordat u ververst:\n"
 "* %s"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:679
+#: usr/lib/solydxk/updatemanager/updatemanager.py:691
 msgid "blacklisted"
 msgstr "genegeerd"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:681
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
 msgid "Current version"
 msgstr "Huidige versie"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:681
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
 msgid "New version"
 msgstr "Nieuwe versie"
 

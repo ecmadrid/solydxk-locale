@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-03 12:38+0200\n"
+"POT-Creation-Date: 2014-07-04 19:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -350,7 +350,7 @@ msgid ""
 msgstr ""
 
 #: usr/lib/solydxk/updatemanager/updatemanager.py:431
-#: usr/lib/solydxk/updatemanager/updatemanager.py:681
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
 msgid "Package"
 msgstr ""
 
@@ -372,11 +372,22 @@ msgid ""
 "did not return any results."
 msgstr ""
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:516
+#: usr/lib/solydxk/updatemanager/updatemanager.py:490
+msgid ""
+"Do you want to completely clean the apt cache?\n"
+"\n"
+"When No, only unavailable installation packages are removed."
+msgstr ""
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:496
+msgid "Apt cache has been cleaned."
+msgstr ""
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:525
 msgid "Execute maintenance changes?"
 msgstr ""
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:623
+#: usr/lib/solydxk/updatemanager/updatemanager.py:635
 #, python-format
 msgid ""
 "Another program is locking the apt cache\n"
@@ -385,14 +396,14 @@ msgid ""
 "* %s"
 msgstr ""
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:679
+#: usr/lib/solydxk/updatemanager/updatemanager.py:691
 msgid "blacklisted"
 msgstr ""
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:681
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
 msgid "Current version"
 msgstr ""
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:681
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
 msgid "New version"
 msgstr ""
