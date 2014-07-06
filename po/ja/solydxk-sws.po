@@ -7,112 +7,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SolydXK  SWS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-03 09:37+0200\n"
-"PO-Revision-Date: 2014-06-26 09:54+0100\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
+"PO-Revision-Date: 2014-07-06 13:57+0100\n"
 "Last-Translator: \n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: Japanese\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: usr/lib/solydxk/sws/sws.py:77 usr/lib/solydxk/sws/sws.py:78
-#: usr/lib/solydxk/sws/sws.py:79
+#: usr/lib/solydxk/sws/main.py:45
+msgid "Flag file found: exiting"
+msgstr "フラグファイルが見つかりました: 終了中"
+
+#: usr/lib/solydxk/sws/sws.py:84 usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:86
 msgid "Welcome"
 msgstr "ようこそ"
 
-#: usr/lib/solydxk/sws/sws.py:80
+#: usr/lib/solydxk/sws/sws.py:87
 msgid "Drivers"
 msgstr "ドライバー"
 
-#: usr/lib/solydxk/sws/sws.py:81
+#: usr/lib/solydxk/sws/sws.py:88
 msgid "Community"
 msgstr "コミュニティ"
 
-#: usr/lib/solydxk/sws/sws.py:82
+#: usr/lib/solydxk/sws/sws.py:89
 msgid "Contribute"
 msgstr "貢献"
 
-#: usr/lib/solydxk/sws/sws.py:83
+#: usr/lib/solydxk/sws/sws.py:90
 msgid "Open"
 msgstr "開く"
 
-#: usr/lib/solydxk/sws/sws.py:84
+#: usr/lib/solydxk/sws/sws.py:91
 msgid "Show at startup"
 msgstr "起動時に表示"
 
-#: usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:92
 msgid "Close"
 msgstr "閉じる"
 
-#: usr/lib/solydxk/sws/sws.py:174
-msgid "Start DDM"
-msgstr "DDM を開始"
+#: usr/lib/solydxk/sws/sws.py:181
+msgid "Start Device Driver Manager"
+msgstr ""
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Driver"
 msgstr "ドライバー"
 
-#: usr/lib/solydxk/sws/sws.py:184
+#: usr/lib/solydxk/sws/sws.py:191
 msgid "No supported third party drivers needed"
 msgstr "サードパーティドライバーは必要ありません"
 
-#: usr/lib/solydxk/sws/sws.py:204 usr/lib/solydxk/sws/sws.py:228
+#: usr/lib/solydxk/sws/sws.py:211 usr/lib/solydxk/sws/sws.py:235
 msgid "Show information"
 msgstr "情報の表示"
 
-#: usr/lib/solydxk/sws/sws.py:247
+#: usr/lib/solydxk/sws/sws.py:254
 #, python-format
 msgid "Open URL: %(url)s"
 msgstr "URL を開く: %(url)s"
 
-#: usr/lib/solydxk/sws/sws.py:250
+#: usr/lib/solydxk/sws/sws.py:257
 #, python-format
 msgid "Start program: %(prg)s"
 msgstr "プログラムを開始: %(prg)s"
 
-#: usr/lib/solydxk/sws/sws.py:253
+#: usr/lib/solydxk/sws/sws.py:260
 msgid "Nothing to open"
 msgstr "開けません"
 
-#: usr/lib/solydxk/sws/sws.py:358
+#: usr/lib/solydxk/sws/sws.py:364
 msgid "Homepage"
 msgstr "ホームページ"
 
-#: usr/lib/solydxk/sws/sws.py:360
+#: usr/lib/solydxk/sws/sws.py:366
 msgid "Forums"
 msgstr "フォーラム"
 
-#: usr/lib/solydxk/sws/sws.py:362
+#: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
 msgstr "チュートリアル"
 
-#: usr/lib/solydxk/sws/sws.py:368
-msgid "Chat room"
-msgstr "チャットルーム"
-
-#: usr/lib/solydxk/sws/sws.py:372
+#: usr/lib/solydxk/sws/sws.py:377
 msgid "Get involved"
 msgstr "参加"
 
-#: usr/lib/solydxk/sws/sws.py:374
+#: usr/lib/solydxk/sws/sws.py:379
 msgid "Donations"
 msgstr "寄付"
 
-#: usr/lib/solydxk/sws/sws.py:376
+#: usr/lib/solydxk/sws/sws.py:381
 msgid "Sponsors"
 msgstr "スポンサー"
 
-#: usr/lib/solydxk/sws/sws.py:378
+#: usr/lib/solydxk/sws/sws.py:383
 msgid "Partners"
 msgstr "パートナー"
 
-#: usr/lib/solydxk/sws/main.py:46
-msgid "Flag file found: exiting"
-msgstr "フラグファイルが見つかりました: 終了中"
+#~ msgid "Start DDM"
+#~ msgstr "DDM を開始"
+
+#~ msgid "Chat room"
+#~ msgstr "チャットルーム"

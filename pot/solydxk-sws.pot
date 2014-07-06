@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-27 18:54+0200\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "Close"
 msgstr ""
 
 #: usr/lib/solydxk/sws/sws.py:181
-msgid "Start DDM"
+msgid "Start Device Driver Manager"
 msgstr ""
 
 #: usr/lib/solydxk/sws/sws.py:187
@@ -94,10 +94,6 @@ msgstr ""
 
 #: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
-msgstr ""
-
-#: usr/lib/solydxk/sws/sws.py:373
-msgid "Chat room"
 msgstr ""
 
 #: usr/lib/solydxk/sws/sws.py:377

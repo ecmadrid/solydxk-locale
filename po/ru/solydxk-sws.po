@@ -7,112 +7,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-sws\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-03 09:37+0200\n"
-"PO-Revision-Date: 2014-06-26 09:56+0100\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
+"PO-Revision-Date: 2014-07-06 13:59+0100\n"
 "Last-Translator: Igor Cheprasov <i-cheprasov@live.ru>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: ru\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: usr/lib/solydxk/sws/sws.py:77 usr/lib/solydxk/sws/sws.py:78
-#: usr/lib/solydxk/sws/sws.py:79
+#: usr/lib/solydxk/sws/main.py:45
+msgid "Flag file found: exiting"
+msgstr "Найден флаг-файл: выход"
+
+#: usr/lib/solydxk/sws/sws.py:84 usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:86
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
-#: usr/lib/solydxk/sws/sws.py:80
+#: usr/lib/solydxk/sws/sws.py:87
 msgid "Drivers"
 msgstr "Драйверы"
 
-#: usr/lib/solydxk/sws/sws.py:81
+#: usr/lib/solydxk/sws/sws.py:88
 msgid "Community"
 msgstr "Сообщество"
 
-#: usr/lib/solydxk/sws/sws.py:82
+#: usr/lib/solydxk/sws/sws.py:89
 msgid "Contribute"
 msgstr "Ваше участие"
 
-#: usr/lib/solydxk/sws/sws.py:83
+#: usr/lib/solydxk/sws/sws.py:90
 msgid "Open"
 msgstr "Открыть"
 
-#: usr/lib/solydxk/sws/sws.py:84
+#: usr/lib/solydxk/sws/sws.py:91
 msgid "Show at startup"
 msgstr "Показывать при запуске"
 
-#: usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:92
 msgid "Close"
 msgstr "Закрыть"
 
-#: usr/lib/solydxk/sws/sws.py:174
-msgid "Start DDM"
-msgstr "Запуск DDM"
+#: usr/lib/solydxk/sws/sws.py:181
+msgid "Start Device Driver Manager"
+msgstr "Запуск Device Driver Manager"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Hardware"
 msgstr "Аппаратное обеспечение"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Driver"
 msgstr "Драйвер"
 
-#: usr/lib/solydxk/sws/sws.py:184
+#: usr/lib/solydxk/sws/sws.py:191
 msgid "No supported third party drivers needed"
 msgstr "Установка драйверов от третьих лиц не требуется"
 
-#: usr/lib/solydxk/sws/sws.py:204 usr/lib/solydxk/sws/sws.py:228
+#: usr/lib/solydxk/sws/sws.py:211 usr/lib/solydxk/sws/sws.py:235
 msgid "Show information"
 msgstr "Показать"
 
-#: usr/lib/solydxk/sws/sws.py:247
+#: usr/lib/solydxk/sws/sws.py:254
 #, python-format
 msgid "Open URL: %(url)s"
 msgstr "Открыть адрес: %(url)s"
 
-#: usr/lib/solydxk/sws/sws.py:250
+#: usr/lib/solydxk/sws/sws.py:257
 #, python-format
 msgid "Start program: %(prg)s"
 msgstr "Запуск программы: %(prg)s"
 
-#: usr/lib/solydxk/sws/sws.py:253
+#: usr/lib/solydxk/sws/sws.py:260
 msgid "Nothing to open"
 msgstr "Нечего открывать"
 
-#: usr/lib/solydxk/sws/sws.py:358
+#: usr/lib/solydxk/sws/sws.py:364
 msgid "Homepage"
 msgstr "Домашняя страница"
 
-#: usr/lib/solydxk/sws/sws.py:360
+#: usr/lib/solydxk/sws/sws.py:366
 msgid "Forums"
 msgstr "Форумы"
 
-#: usr/lib/solydxk/sws/sws.py:362
+#: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
 msgstr "Обучение"
 
-#: usr/lib/solydxk/sws/sws.py:368
-msgid "Chat room"
-msgstr "Чат"
-
-#: usr/lib/solydxk/sws/sws.py:372
+#: usr/lib/solydxk/sws/sws.py:377
 msgid "Get involved"
 msgstr "Принять участие"
 
-#: usr/lib/solydxk/sws/sws.py:374
+#: usr/lib/solydxk/sws/sws.py:379
 msgid "Donations"
 msgstr "Пожертвования"
 
-#: usr/lib/solydxk/sws/sws.py:376
+#: usr/lib/solydxk/sws/sws.py:381
 msgid "Sponsors"
 msgstr "Спонсоры"
 
-#: usr/lib/solydxk/sws/sws.py:378
+#: usr/lib/solydxk/sws/sws.py:383
 msgid "Partners"
 msgstr "Партнеры"
 
-#: usr/lib/solydxk/sws/main.py:46
-msgid "Flag file found: exiting"
-msgstr "Найден флаг-файл: выход"
+#~ msgid "Start DDM"
+#~ msgstr "Запуск DDM"
+
+#~ msgid "Chat room"
+#~ msgstr "Чат"

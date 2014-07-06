@@ -7,112 +7,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solysxk-sws 0.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-03 09:37+0200\n"
-"PO-Revision-Date: 2013-12-26 21:08+0200\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
+"PO-Revision-Date: 2014-07-06 14:01+0100\n"
 "Last-Translator: Taylan Tatlı <taylantatli90@gmail.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: tr\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: usr/lib/solydxk/sws/sws.py:77 usr/lib/solydxk/sws/sws.py:78
-#: usr/lib/solydxk/sws/sws.py:79
+#: usr/lib/solydxk/sws/main.py:45
+msgid "Flag file found: exiting"
+msgstr "Flag dosyası bulundu: çıkılıyor"
+
+#: usr/lib/solydxk/sws/sws.py:84 usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:86
 msgid "Welcome"
 msgstr "Hoş Geldiniz"
 
-#: usr/lib/solydxk/sws/sws.py:80
+#: usr/lib/solydxk/sws/sws.py:87
 msgid "Drivers"
 msgstr "Sürücüler"
 
-#: usr/lib/solydxk/sws/sws.py:81
+#: usr/lib/solydxk/sws/sws.py:88
 msgid "Community"
 msgstr "Topluluk"
 
-#: usr/lib/solydxk/sws/sws.py:82
+#: usr/lib/solydxk/sws/sws.py:89
 msgid "Contribute"
 msgstr "Katkıda Bulun"
 
-#: usr/lib/solydxk/sws/sws.py:83
+#: usr/lib/solydxk/sws/sws.py:90
 msgid "Open"
 msgstr "Aç"
 
-#: usr/lib/solydxk/sws/sws.py:84
+#: usr/lib/solydxk/sws/sws.py:91
 msgid "Show at startup"
 msgstr "Başlangıçta göster"
 
-#: usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:92
 msgid "Close"
 msgstr "Kapat"
 
-#: usr/lib/solydxk/sws/sws.py:174
-msgid "Start DDM"
-msgstr "DDM'yi Başlat"
+#: usr/lib/solydxk/sws/sws.py:181
+msgid "Start Device Driver Manager"
+msgstr "başlat Device Driver Manager"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Hardware"
 msgstr "Donanım"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Driver"
 msgstr "Sürücü"
 
-#: usr/lib/solydxk/sws/sws.py:184
+#: usr/lib/solydxk/sws/sws.py:191
 msgid "No supported third party drivers needed"
 msgstr "Desteklenen 3.şahıs sürücüler gerekli değil"
 
-#: usr/lib/solydxk/sws/sws.py:204 usr/lib/solydxk/sws/sws.py:228
+#: usr/lib/solydxk/sws/sws.py:211 usr/lib/solydxk/sws/sws.py:235
 msgid "Show information"
 msgstr "Bilgi göster"
 
-#: usr/lib/solydxk/sws/sws.py:247
+#: usr/lib/solydxk/sws/sws.py:254
 #, python-format
 msgid "Open URL: %(url)s"
 msgstr "Adres Aç: %(url)s"
 
-#: usr/lib/solydxk/sws/sws.py:250
+#: usr/lib/solydxk/sws/sws.py:257
 #, python-format
 msgid "Start program: %(prg)s"
 msgstr "Programı başlat: %(prg)s"
 
-#: usr/lib/solydxk/sws/sws.py:253
+#: usr/lib/solydxk/sws/sws.py:260
 msgid "Nothing to open"
 msgstr "Açılacak bir şey yok"
 
-#: usr/lib/solydxk/sws/sws.py:358
+#: usr/lib/solydxk/sws/sws.py:364
 msgid "Homepage"
 msgstr "Anasayfa"
 
-#: usr/lib/solydxk/sws/sws.py:360
+#: usr/lib/solydxk/sws/sws.py:366
 msgid "Forums"
 msgstr "Forumlar"
 
-#: usr/lib/solydxk/sws/sws.py:362
+#: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
 msgstr "Eğitsel"
 
-#: usr/lib/solydxk/sws/sws.py:368
-msgid "Chat room"
-msgstr "Sohbet odası"
-
-#: usr/lib/solydxk/sws/sws.py:372
+#: usr/lib/solydxk/sws/sws.py:377
 msgid "Get involved"
 msgstr "Katıl"
 
-#: usr/lib/solydxk/sws/sws.py:374
+#: usr/lib/solydxk/sws/sws.py:379
 msgid "Donations"
 msgstr "Bağışlar"
 
-#: usr/lib/solydxk/sws/sws.py:376
+#: usr/lib/solydxk/sws/sws.py:381
 msgid "Sponsors"
 msgstr "Sponsorlar"
 
-#: usr/lib/solydxk/sws/sws.py:378
+#: usr/lib/solydxk/sws/sws.py:383
 msgid "Partners"
 msgstr "Partnerler"
 
-#: usr/lib/solydxk/sws/main.py:46
-msgid "Flag file found: exiting"
-msgstr "Flag dosyası bulundu: çıkılıyor"
+#~ msgid "Start DDM"
+#~ msgstr "DDM'yi Başlat"
+
+#~ msgid "Chat room"
+#~ msgstr "Sohbet odası"

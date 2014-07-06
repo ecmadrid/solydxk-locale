@@ -7,116 +7,114 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Solydxk-sws 201406\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-03 09:37+0200\n"
-"PO-Revision-Date: 2014-06-28 18:58+0100\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
+"PO-Revision-Date: 2014-07-06 12:26+0100\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
-"Language: \n"
+"Language: ca_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Catalan\n"
-"X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#: usr/lib/solydxk/sws/sws.py:77
-#: usr/lib/solydxk/sws/sws.py:78
-#: usr/lib/solydxk/sws/sws.py:79
+#: usr/lib/solydxk/sws/main.py:45
+msgid "Flag file found: exiting"
+msgstr "S'ha trobat el fitxer flag: surt"
+
+#: usr/lib/solydxk/sws/sws.py:84 usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:86
 msgid "Welcome"
 msgstr "Benvinguts"
 
-#: usr/lib/solydxk/sws/sws.py:80
+#: usr/lib/solydxk/sws/sws.py:87
 msgid "Drivers"
 msgstr "Controladors"
 
-#: usr/lib/solydxk/sws/sws.py:81
+#: usr/lib/solydxk/sws/sws.py:88
 msgid "Community"
 msgstr "Comunitat"
 
-#: usr/lib/solydxk/sws/sws.py:82
+#: usr/lib/solydxk/sws/sws.py:89
 msgid "Contribute"
 msgstr "Col·laboració"
 
-#: usr/lib/solydxk/sws/sws.py:83
+#: usr/lib/solydxk/sws/sws.py:90
 msgid "Open"
 msgstr "Obre"
 
-#: usr/lib/solydxk/sws/sws.py:84
+#: usr/lib/solydxk/sws/sws.py:91
 msgid "Show at startup"
 msgstr "Mostra a l'arrencada"
 
-#: usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:92
 msgid "Close"
 msgstr "Tanca"
 
-#: usr/lib/solydxk/sws/sws.py:174
-msgid "Start DDM"
-msgstr "Engega el DDM"
+#: usr/lib/solydxk/sws/sws.py:181
+msgid "Start Device Driver Manager"
+msgstr "Engega el Device Driver Manager"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Hardware"
 msgstr "Maquinari"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Driver"
 msgstr "Controlador"
 
-#: usr/lib/solydxk/sws/sws.py:184
+#: usr/lib/solydxk/sws/sws.py:191
 msgid "No supported third party drivers needed"
 msgstr "No s'han trobat controladors de tercers"
 
-#: usr/lib/solydxk/sws/sws.py:204
-#: usr/lib/solydxk/sws/sws.py:228
+#: usr/lib/solydxk/sws/sws.py:211 usr/lib/solydxk/sws/sws.py:235
 msgid "Show information"
 msgstr "Mostra la informació"
 
-#: usr/lib/solydxk/sws/sws.py:247
+#: usr/lib/solydxk/sws/sws.py:254
 #, python-format
 msgid "Open URL: %(url)s"
 msgstr "Obre l'URL: %(url)s"
 
-#: usr/lib/solydxk/sws/sws.py:250
+#: usr/lib/solydxk/sws/sws.py:257
 #, python-format
 msgid "Start program: %(prg)s"
 msgstr "Engega el programa: %(prg)s"
 
-#: usr/lib/solydxk/sws/sws.py:253
+#: usr/lib/solydxk/sws/sws.py:260
 msgid "Nothing to open"
 msgstr "No hi ha res per obrir"
 
-#: usr/lib/solydxk/sws/sws.py:358
+#: usr/lib/solydxk/sws/sws.py:364
 msgid "Homepage"
 msgstr "Pàgina inicial"
 
-#: usr/lib/solydxk/sws/sws.py:360
+#: usr/lib/solydxk/sws/sws.py:366
 msgid "Forums"
 msgstr "Fòrums"
 
-#: usr/lib/solydxk/sws/sws.py:362
+#: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
 msgstr "Ajuda i guies"
 
-#: usr/lib/solydxk/sws/sws.py:368
-msgid "Chat room"
-msgstr "Sala de xat"
-
-#: usr/lib/solydxk/sws/sws.py:372
+#: usr/lib/solydxk/sws/sws.py:377
 msgid "Get involved"
 msgstr "Involucreu-vos"
 
-#: usr/lib/solydxk/sws/sws.py:374
+#: usr/lib/solydxk/sws/sws.py:379
 msgid "Donations"
 msgstr "Donatius"
 
-#: usr/lib/solydxk/sws/sws.py:376
+#: usr/lib/solydxk/sws/sws.py:381
 msgid "Sponsors"
 msgstr "Patrocinadors"
 
-#: usr/lib/solydxk/sws/sws.py:378
+#: usr/lib/solydxk/sws/sws.py:383
 msgid "Partners"
 msgstr "Intercanvis"
 
-#: usr/lib/solydxk/sws/main.py:46
-msgid "Flag file found: exiting"
-msgstr "S'ha trobat el fitxer flag: surt"
+#~ msgid "Start DDM"
+#~ msgstr "Engega el DDM"
 
+#~ msgid "Chat room"
+#~ msgstr "Sala de xat"

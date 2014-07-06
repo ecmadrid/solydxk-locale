@@ -7,256 +7,206 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-sws\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-29 15:52+0200\n"
-"PO-Revision-Date: 2014-04-01 14:16+0100\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
+"PO-Revision-Date: 2014-07-06 12:27+0100\n"
 "Last-Translator: alefa <gita.benadi@posteo.de>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: Deutsch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: Deutsch\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../../ddm/src/usr/lib/ddm/execcmd.py:18
-#, python-format
-msgid "Command to execute: %(cmd)s"
-msgstr "Befehl ausführen: %(cmd)s"
+#: usr/lib/solydxk/sws/main.py:45
+msgid "Flag file found: exiting"
+msgstr "Flag file gefunden: beende"
 
-#: ../../ddm/src/usr/lib/ddm/functions.py:113
-#, python-format
-msgid "Search for extensions: %(ext)s"
-msgstr "Suche nach Erweiterungen (Add-ons): %(ext)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:131
-#, python-format
-msgid "File with extension found: %(path)s"
-msgstr "Erweiterung (Add-on) gefunden: %(path)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:136
-#, python-format
-msgid "File found: %(path)s"
-msgstr "Datei gefunden: %(path)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:399
-#, python-format
-msgid "Resolution added: %(res)s"
-msgstr "Auflösung hinzugefügt: %(res)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:417
-#, python-format
-msgid "Package is installed: %(package)s"
-msgstr "Paket ist installiert: %(package)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:421
-#, python-format
-msgid "Package not installed: %(package)s"
-msgstr "Paket nicht installiert %(package)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:425
-#, python-format
-msgid "Package not found: %(package)s"
-msgstr "Paket nicht gefunden: %(package)s"
-
-#: ../../ddm/src/usr/lib/ddm/functions.py:429
-#, python-format
-msgid "Could not get status info for package: %(package)s"
-msgstr "Habe keine Information zum Paketstatus gefunden: %(package)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:59
-#, python-format
-msgid "Create list store eval string: %(eval)s"
-msgstr "Erstelle Listenspeicher eval string: %(eval)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:64
-msgid "Clear existing list store"
-msgstr "Lösche bestehenden Listenspeicher"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:73
-#, python-format
-msgid "First item is column name (multi-column list): %(iscolname)s"
-msgstr "Erstes Element ist Spaltenname (Mehrfach-Spalten Liste): %(iscolname)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:79
-#, python-format
-msgid "First item is column name (single-column list): %(iscolname)s"
-msgstr "Erstes Element ist Spaltenname (einfach-Spalten Liste): %(iscolname)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:84
-#, python-format
-msgid "Create column names: %(cols)s"
-msgstr "Erstelle Spaltennamen: %(cols)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:91
-msgid "First item is column name: skip first item"
-msgstr "Erstes Element ist Spaltenname: überspringe erstes Element"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:119
-#, python-format
-msgid "Add data to list store: %(data)s"
-msgstr "Füge Daten zu Listenspeicher hinzu: %(data)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:123
-#, python-format
-msgid "Add data to top of list store: %(totop)s"
-msgstr "Füge Daten am Beginn von Listenspeicher hinzu: %(totop)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:126
-#, python-format
-msgid "Add data to bottom of list store: %(tobottom)s"
-msgstr "Füge Daten am Ende von Listenspeicher hinzu: %(tobottom)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:134
-#, python-format
-msgid "Last visible column nr: %(colnr)d"
-msgstr "Nr. der letzten sichtbaren Spalte: %(colnr)d"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:143
-#, python-format
-msgid "Hide column nr: %(colnr)d"
-msgstr "Verstecke Spalte Nr: %(colnr)d"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:168
-#, python-format
-msgid "Create column: %(col)s"
-msgstr "Erzeuge Spalte: %(col)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:178
-msgid "Check box found: add toggle function"
-msgstr "Auswahlkästchen gefunden: füge Umschalt- Funktion hinzu"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:183
-#, python-format
-msgid "Last column fills treeview: %(colnr)d"
-msgstr "Letzte Spalte füllt Baumansicht: %(colnr)d"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:188
-#, python-format
-msgid "Column added: %(col)s"
-msgstr "Spalte hinzugefügt: %(col)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:190
-#, python-format
-msgid "Column already exists: %(col)s"
-msgstr "Spalte existiert bereits: %(col)s"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:197
-msgid "Add Liststore to Treeview"
-msgstr "Füge Listenspeicher zu Baumansicht hinzu"
-
-#: ../../ddm/src/usr/lib/ddm/treeview.py:205
-#, python-format
-msgid "Scrolled to selected row: %(row)d"
-msgstr "Zu ausgewählter Zeile gescrollt: %(row)d"
-
-#: usr/lib/solydxk/sws/sws.py:76 usr/lib/solydxk/sws/sws.py:77
-#: usr/lib/solydxk/sws/sws.py:78
+#: usr/lib/solydxk/sws/sws.py:84 usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:86
 msgid "Welcome"
 msgstr "Willkommen"
 
-#: usr/lib/solydxk/sws/sws.py:79
+#: usr/lib/solydxk/sws/sws.py:87
 msgid "Drivers"
 msgstr "Treiber"
 
-#: usr/lib/solydxk/sws/sws.py:80
+#: usr/lib/solydxk/sws/sws.py:88
 msgid "Community"
 msgstr "Community"
 
-#: usr/lib/solydxk/sws/sws.py:81
+#: usr/lib/solydxk/sws/sws.py:89
 msgid "Contribute"
 msgstr "Mitmachen"
 
-#: usr/lib/solydxk/sws/sws.py:82
+#: usr/lib/solydxk/sws/sws.py:90
 msgid "Open"
 msgstr "Öffne"
 
-#: usr/lib/solydxk/sws/sws.py:83
+#: usr/lib/solydxk/sws/sws.py:91
 msgid "Show at startup"
 msgstr "Fenster nach Neustart wieder anzeigen"
 
-#: usr/lib/solydxk/sws/sws.py:84
+#: usr/lib/solydxk/sws/sws.py:92
 msgid "Close"
 msgstr "Schließen"
 
-#: usr/lib/solydxk/sws/sws.py:172
-msgid "Start DDM"
-msgstr "Starte Treiber-Manager"
+#: usr/lib/solydxk/sws/sws.py:181
+msgid "Start Device Driver Manager"
+msgstr "Starte Device Driver Manager"
 
-#: usr/lib/solydxk/sws/sws.py:178
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Hardware"
 msgstr "Hardware"
 
-#: usr/lib/solydxk/sws/sws.py:178
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Driver"
 msgstr "Treiber"
 
-#: usr/lib/solydxk/sws/sws.py:182
+#: usr/lib/solydxk/sws/sws.py:191
 msgid "No supported third party drivers needed"
 msgstr "Es werden keine unterstützten Treiber von Drittanbietern gebraucht."
 
-#: usr/lib/solydxk/sws/sws.py:202 usr/lib/solydxk/sws/sws.py:223
+#: usr/lib/solydxk/sws/sws.py:211 usr/lib/solydxk/sws/sws.py:235
 msgid "Show information"
 msgstr "Zeige Informationen"
 
-#: usr/lib/solydxk/sws/sws.py:239
+#: usr/lib/solydxk/sws/sws.py:254
 #, python-format
 msgid "Open URL: %(url)s"
 msgstr "Öffne URL: %(url)s"
 
-#: usr/lib/solydxk/sws/sws.py:242
+#: usr/lib/solydxk/sws/sws.py:257
 #, python-format
 msgid "Start program: %(prg)s"
 msgstr "Starte Programm %(prg)s"
 
-#: usr/lib/solydxk/sws/sws.py:245
+#: usr/lib/solydxk/sws/sws.py:260
 msgid "Nothing to open"
 msgstr "Nichts zu öffnen"
 
-#: usr/lib/solydxk/sws/sws.py:338
-msgid "Flag file found"
-msgstr "Flag file gefunden"
-
-#: usr/lib/solydxk/sws/sws.py:341
-msgid "Flag file not found"
-msgstr "Flag file nicht gefunden"
-
-#: usr/lib/solydxk/sws/sws.py:348
+#: usr/lib/solydxk/sws/sws.py:364
 msgid "Homepage"
 msgstr "Homepage"
 
-#: usr/lib/solydxk/sws/sws.py:350
+#: usr/lib/solydxk/sws/sws.py:366
 msgid "Forums"
 msgstr "Forum"
 
-#: usr/lib/solydxk/sws/sws.py:352
+#: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
 msgstr "Anleitungen"
 
-#: usr/lib/solydxk/sws/sws.py:354
-msgid "Chat room"
-msgstr "Chat room"
-
-#: usr/lib/solydxk/sws/sws.py:358
+#: usr/lib/solydxk/sws/sws.py:377
 msgid "Get involved"
 msgstr "Mitmachen"
 
-#: usr/lib/solydxk/sws/sws.py:360
+#: usr/lib/solydxk/sws/sws.py:379
 msgid "Donations"
 msgstr "Spenden"
 
-#: usr/lib/solydxk/sws/sws.py:362
+#: usr/lib/solydxk/sws/sws.py:381
 msgid "Sponsors"
 msgstr "Sponsoren"
 
-#: usr/lib/solydxk/sws/sws.py:364
+#: usr/lib/solydxk/sws/sws.py:383
 msgid "Partners"
 msgstr "Partner"
 
-#: usr/lib/solydxk/sws/main.py:46
-msgid "Flag file found: exiting"
-msgstr "Flag file gefunden: beende"
+#~ msgid "Command to execute: %(cmd)s"
+#~ msgstr "Befehl ausführen: %(cmd)s"
 
-#: usr/lib/solydxk/sws/main.py:53
-#, python-format
-msgid "Startup command: %(cmd)s"
-msgstr "Startbefehl: %(cmd)s"
+#~ msgid "Search for extensions: %(ext)s"
+#~ msgstr "Suche nach Erweiterungen (Add-ons): %(ext)s"
+
+#~ msgid "File with extension found: %(path)s"
+#~ msgstr "Erweiterung (Add-on) gefunden: %(path)s"
+
+#~ msgid "File found: %(path)s"
+#~ msgstr "Datei gefunden: %(path)s"
+
+#~ msgid "Resolution added: %(res)s"
+#~ msgstr "Auflösung hinzugefügt: %(res)s"
+
+#~ msgid "Package is installed: %(package)s"
+#~ msgstr "Paket ist installiert: %(package)s"
+
+#~ msgid "Package not installed: %(package)s"
+#~ msgstr "Paket nicht installiert %(package)s"
+
+#~ msgid "Package not found: %(package)s"
+#~ msgstr "Paket nicht gefunden: %(package)s"
+
+#~ msgid "Could not get status info for package: %(package)s"
+#~ msgstr "Habe keine Information zum Paketstatus gefunden: %(package)s"
+
+#~ msgid "Create list store eval string: %(eval)s"
+#~ msgstr "Erstelle Listenspeicher eval string: %(eval)s"
+
+#~ msgid "Clear existing list store"
+#~ msgstr "Lösche bestehenden Listenspeicher"
+
+#~ msgid "First item is column name (multi-column list): %(iscolname)s"
+#~ msgstr ""
+#~ "Erstes Element ist Spaltenname (Mehrfach-Spalten Liste): %(iscolname)s"
+
+#~ msgid "First item is column name (single-column list): %(iscolname)s"
+#~ msgstr ""
+#~ "Erstes Element ist Spaltenname (einfach-Spalten Liste): %(iscolname)s"
+
+#~ msgid "Create column names: %(cols)s"
+#~ msgstr "Erstelle Spaltennamen: %(cols)s"
+
+#~ msgid "First item is column name: skip first item"
+#~ msgstr "Erstes Element ist Spaltenname: überspringe erstes Element"
+
+#~ msgid "Add data to list store: %(data)s"
+#~ msgstr "Füge Daten zu Listenspeicher hinzu: %(data)s"
+
+#~ msgid "Add data to top of list store: %(totop)s"
+#~ msgstr "Füge Daten am Beginn von Listenspeicher hinzu: %(totop)s"
+
+#~ msgid "Add data to bottom of list store: %(tobottom)s"
+#~ msgstr "Füge Daten am Ende von Listenspeicher hinzu: %(tobottom)s"
+
+#~ msgid "Last visible column nr: %(colnr)d"
+#~ msgstr "Nr. der letzten sichtbaren Spalte: %(colnr)d"
+
+#~ msgid "Hide column nr: %(colnr)d"
+#~ msgstr "Verstecke Spalte Nr: %(colnr)d"
+
+#~ msgid "Create column: %(col)s"
+#~ msgstr "Erzeuge Spalte: %(col)s"
+
+#~ msgid "Check box found: add toggle function"
+#~ msgstr "Auswahlkästchen gefunden: füge Umschalt- Funktion hinzu"
+
+#~ msgid "Last column fills treeview: %(colnr)d"
+#~ msgstr "Letzte Spalte füllt Baumansicht: %(colnr)d"
+
+#~ msgid "Column added: %(col)s"
+#~ msgstr "Spalte hinzugefügt: %(col)s"
+
+#~ msgid "Column already exists: %(col)s"
+#~ msgstr "Spalte existiert bereits: %(col)s"
+
+#~ msgid "Add Liststore to Treeview"
+#~ msgstr "Füge Listenspeicher zu Baumansicht hinzu"
+
+#~ msgid "Scrolled to selected row: %(row)d"
+#~ msgstr "Zu ausgewählter Zeile gescrollt: %(row)d"
+
+#~ msgid "Start DDM"
+#~ msgstr "Starte Treiber-Manager"
+
+#~ msgid "Flag file found"
+#~ msgstr "Flag file gefunden"
+
+#~ msgid "Flag file not found"
+#~ msgstr "Flag file nicht gefunden"
+
+#~ msgid "Chat room"
+#~ msgstr "Chat room"
+
+#~ msgid "Startup command: %(cmd)s"
+#~ msgstr "Startbefehl: %(cmd)s"

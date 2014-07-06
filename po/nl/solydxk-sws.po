@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-sws 0.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-03 09:37+0200\n"
-"PO-Revision-Date: 2014-04-02 17:22+0100\n"
+"POT-Creation-Date: 2014-07-06 12:19+0200\n"
+"PO-Revision-Date: 2014-07-06 12:20+0100\n"
 "Last-Translator: Schoelje <schoelje@solydxk.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
 "Language: nl_NL\n"
@@ -18,104 +18,106 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: usr/lib/solydxk/sws/sws.py:77 usr/lib/solydxk/sws/sws.py:78
-#: usr/lib/solydxk/sws/sws.py:79
+#: usr/lib/solydxk/sws/main.py:45
+msgid "Flag file found: exiting"
+msgstr "Vlagbestand gevonden: afsluiten"
+
+#: usr/lib/solydxk/sws/sws.py:84 usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:86
 msgid "Welcome"
 msgstr "Welkom"
 
-#: usr/lib/solydxk/sws/sws.py:80
+#: usr/lib/solydxk/sws/sws.py:87
 msgid "Drivers"
 msgstr "Drivers"
 
-#: usr/lib/solydxk/sws/sws.py:81
+#: usr/lib/solydxk/sws/sws.py:88
 msgid "Community"
 msgstr "Gemeenschap"
 
-#: usr/lib/solydxk/sws/sws.py:82
+#: usr/lib/solydxk/sws/sws.py:89
 msgid "Contribute"
 msgstr "Bijdragen"
 
-#: usr/lib/solydxk/sws/sws.py:83
+#: usr/lib/solydxk/sws/sws.py:90
 msgid "Open"
 msgstr "Open"
 
-#: usr/lib/solydxk/sws/sws.py:84
+#: usr/lib/solydxk/sws/sws.py:91
 msgid "Show at startup"
 msgstr "Toon bij start"
 
-#: usr/lib/solydxk/sws/sws.py:85
+#: usr/lib/solydxk/sws/sws.py:92
 msgid "Close"
 msgstr "Sluiten"
 
-#: usr/lib/solydxk/sws/sws.py:174
-msgid "Start DDM"
-msgstr "Start DDM"
+#: usr/lib/solydxk/sws/sws.py:181
+msgid "Start Device Driver Manager"
+msgstr "Start Device Driver Manager"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Hardware"
 msgstr "Hardware"
 
-#: usr/lib/solydxk/sws/sws.py:180
+#: usr/lib/solydxk/sws/sws.py:187
 msgid "Driver"
 msgstr "Driver"
 
-#: usr/lib/solydxk/sws/sws.py:184
+#: usr/lib/solydxk/sws/sws.py:191
 msgid "No supported third party drivers needed"
 msgstr "Geen ondersteunde driver nodig"
 
-#: usr/lib/solydxk/sws/sws.py:204 usr/lib/solydxk/sws/sws.py:228
+#: usr/lib/solydxk/sws/sws.py:211 usr/lib/solydxk/sws/sws.py:235
 msgid "Show information"
 msgstr "Toon informatie"
 
-#: usr/lib/solydxk/sws/sws.py:247
+#: usr/lib/solydxk/sws/sws.py:254
 #, python-format
 msgid "Open URL: %(url)s"
 msgstr "Open URL: %(url)s"
 
-#: usr/lib/solydxk/sws/sws.py:250
+#: usr/lib/solydxk/sws/sws.py:257
 #, python-format
 msgid "Start program: %(prg)s"
 msgstr "Start programma: %(prg)s"
 
-#: usr/lib/solydxk/sws/sws.py:253
+#: usr/lib/solydxk/sws/sws.py:260
 msgid "Nothing to open"
 msgstr "Niets te openen"
 
-#: usr/lib/solydxk/sws/sws.py:358
+#: usr/lib/solydxk/sws/sws.py:364
 msgid "Homepage"
 msgstr "Homepage"
 
-#: usr/lib/solydxk/sws/sws.py:360
+#: usr/lib/solydxk/sws/sws.py:366
 msgid "Forums"
 msgstr "Fora"
 
-#: usr/lib/solydxk/sws/sws.py:362
+#: usr/lib/solydxk/sws/sws.py:368
 msgid "Tutorials"
 msgstr "Handleidingen"
 
-#: usr/lib/solydxk/sws/sws.py:368
-msgid "Chat room"
-msgstr "Chatroom"
-
-#: usr/lib/solydxk/sws/sws.py:372
+#: usr/lib/solydxk/sws/sws.py:377
 msgid "Get involved"
 msgstr "Doe mee"
 
-#: usr/lib/solydxk/sws/sws.py:374
+#: usr/lib/solydxk/sws/sws.py:379
 msgid "Donations"
 msgstr "Donaties"
 
-#: usr/lib/solydxk/sws/sws.py:376
+#: usr/lib/solydxk/sws/sws.py:381
 msgid "Sponsors"
 msgstr "Sponsors"
 
-#: usr/lib/solydxk/sws/sws.py:378
+#: usr/lib/solydxk/sws/sws.py:383
 msgid "Partners"
 msgstr "Partners"
 
-#: usr/lib/solydxk/sws/main.py:46
-msgid "Flag file found: exiting"
-msgstr "Vlagbestand gevonden: afsluiten"
+#~ msgid "Start DDM"
+#~ msgstr "Start DDM"
+
+#~ msgid "Chat room"
+#~ msgstr "Chatroom"
 
 #~ msgid "Command to execute: %(cmd)s"
 #~ msgstr "Opdracht uitvoeren: %(cmd)s"
