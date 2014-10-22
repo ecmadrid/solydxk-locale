@@ -8,16 +8,15 @@ msgstr ""
 "Project-Id-Version: ddm 0.7.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-28 07:56+0200\n"
-"PO-Revision-Date: 2013-05-30 09:59-0600\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2014-10-22 12:43+0100\n"
+"Last-Translator: Juan Sánchez <jsrmadrid@gmail.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
-"Language: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Spanish\n"
-"X-Poedit-Country: MEXICO\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usr/lib/ddm/ati.py:55
 #, python-format
@@ -34,9 +33,7 @@ msgstr "ATI chip serie encontrado: %(serie)s"
 msgid "ATI driver found: %(drv)s (%(status)s)"
 msgstr "Controlador ATI encontrado: %(drv)s (%(status)s)"
 
-#: usr/lib/ddm/ati.py:72
-#: usr/lib/ddm/intel.py:48
-#: usr/lib/ddm/nvidia.py:75
+#: usr/lib/ddm/ati.py:72 usr/lib/ddm/intel.py:48 usr/lib/ddm/nvidia.py:75
 #: usr/lib/ddm/via.py:47
 #, python-format
 msgid "Driver not installable: %(drv)s"
@@ -47,15 +44,12 @@ msgstr "Controlador no instalable: %(drv)s"
 msgid "ATI chip serie not supported: %(serie)d"
 msgstr "ATI chip serie no soportado: %(serie)d"
 
-#: usr/lib/ddm/ati.py:76
-#: usr/lib/ddm/nvidia.py:77
+#: usr/lib/ddm/ati.py:76 usr/lib/ddm/nvidia.py:77
 #, python-format
 msgid "No driver found for: %(card)s (%(man)s:%(serie)s)"
 msgstr "No se ha encontrado el controlador para: %(card)s (%(man)s:%(serie)s)"
 
-#: usr/lib/ddm/ati.py:89
-#: usr/lib/ddm/intel.py:60
-#: usr/lib/ddm/nvidia.py:91
+#: usr/lib/ddm/ati.py:89 usr/lib/ddm/intel.py:60 usr/lib/ddm/nvidia.py:91
 #: usr/lib/ddm/via.py:59
 #, python-format
 msgid "Install driver: %(drv)s"
@@ -65,25 +59,19 @@ msgstr "Instalar controlador: %(drv)s"
 msgid "Configure ATI..."
 msgstr "Configurar ATI..."
 
-#: usr/lib/ddm/ati.py:103
-#: usr/lib/ddm/intel.py:64
-#: usr/lib/ddm/nvidia.py:103
+#: usr/lib/ddm/ati.py:103 usr/lib/ddm/intel.py:64 usr/lib/ddm/nvidia.py:103
 #: usr/lib/ddm/via.py:63
 #, python-format
 msgid "Found module for driver %(drv)s: %(module)s"
 msgstr "Encontrado módulo para el controlador %(drv)s: %(module)s"
 
-#: usr/lib/ddm/ati.py:105
-#: usr/lib/ddm/intel.py:66
-#: usr/lib/ddm/nvidia.py:105
+#: usr/lib/ddm/ati.py:105 usr/lib/ddm/intel.py:66 usr/lib/ddm/nvidia.py:105
 #: usr/lib/ddm/via.py:65
 #, python-format
 msgid "Switch to module: %(module)s"
 msgstr "Cambiar al módulo: %(module)s"
 
-#: usr/lib/ddm/ati.py:111
-#: usr/lib/ddm/intel.py:69
-#: usr/lib/ddm/nvidia.py:115
+#: usr/lib/ddm/ati.py:111 usr/lib/ddm/intel.py:69 usr/lib/ddm/nvidia.py:115
 #: usr/lib/ddm/via.py:68
 #, python-format
 msgid "Driver installed: %(drv)s"
@@ -93,16 +81,12 @@ msgstr "Controlador instalado: %(drv)s"
 msgid "Removing ATI drivers"
 msgstr "Desinstalando controladores ATI"
 
-#: usr/lib/ddm/ati.py:125
-#: usr/lib/ddm/ati.py:195
-#: usr/lib/ddm/nvidia.py:130
+#: usr/lib/ddm/ati.py:125 usr/lib/ddm/ati.py:195 usr/lib/ddm/nvidia.py:130
 #, python-format
 msgid "Remove package: %(package)s"
 msgstr "Desinstalar paquete: %(package)s"
 
-#: usr/lib/ddm/ati.py:136
-#: usr/lib/ddm/intel.py:88
-#: usr/lib/ddm/nvidia.py:144
+#: usr/lib/ddm/ati.py:136 usr/lib/ddm/intel.py:88 usr/lib/ddm/nvidia.py:144
 #: usr/lib/ddm/via.py:87
 #, python-format
 msgid "Driver removed: %(drv)s"
@@ -116,16 +100,12 @@ msgstr "Controlador de pantalla ATI"
 msgid "Radeon display driver"
 msgstr "Controlador de pantalla Radeon"
 
-#: usr/lib/ddm/ati.py:148
-#: usr/lib/ddm/intel.py:98
-#: usr/lib/ddm/nvidia.py:156
+#: usr/lib/ddm/ati.py:148 usr/lib/ddm/intel.py:98 usr/lib/ddm/nvidia.py:156
 #: usr/lib/ddm/via.py:97
 msgid "Framebuffer display driver"
 msgstr "Controlador de pantalla Framebuffer"
 
-#: usr/lib/ddm/ati.py:150
-#: usr/lib/ddm/intel.py:100
-#: usr/lib/ddm/nvidia.py:158
+#: usr/lib/ddm/ati.py:150 usr/lib/ddm/intel.py:100 usr/lib/ddm/nvidia.py:158
 #: usr/lib/ddm/via.py:99
 msgid "Vesa display driver"
 msgstr "Controlador de pantalla Vesa"
@@ -173,7 +153,7 @@ msgstr "Broadcom pci ID no encontrado: %(id)s"
 #: usr/lib/ddm/broadcom.py:214
 #, python-format
 msgid "Linux header name to install: %(header)s"
-msgstr "Nombre de los Linux header para instalar: %(header)s"
+msgstr "Nombre de los archivos de cabecera de Linux a instalar: %(header)s"
 
 #: usr/lib/ddm/broadcom.py:218
 #, python-format
@@ -205,7 +185,7 @@ msgstr "Desinstalar los paquetes deb descargados"
 #: usr/lib/ddm/broadcom.py:268
 #, python-format
 msgid "Reconfigure package: %(package)s"
-msgstr "Reconfigurar paquetes: %(package)s"
+msgstr "Reconfigurar paquete: %(package)s"
 
 #: usr/lib/ddm/broadcom.py:274
 msgid "Blacklist b43, brcmsmac, bcma, ssb"
@@ -229,7 +209,7 @@ msgstr "Modprobe brcmsmac"
 
 #: usr/lib/ddm/broadcom.py:297
 msgid "Done installing Broadcom drivers"
-msgstr "Se han instalado los controladores Broadcom  "
+msgstr "Se han instalado los controladores Broadcom"
 
 #: usr/lib/ddm/broadcom.py:299
 msgid "No Broadcom chip set found"
@@ -273,8 +253,7 @@ msgstr "Controlador activado"
 msgid "Alternative drivers"
 msgstr "Controladores alternativos"
 
-#: usr/lib/ddm/ddm.py:167
-#: usr/lib/ddm/ddm.py:192
+#: usr/lib/ddm/ddm.py:167 usr/lib/ddm/ddm.py:192
 msgid "Current drivers are correct"
 msgstr "Los controladores actuales son los adecuados"
 
@@ -288,7 +267,7 @@ msgstr "Soporte PAE únicamente para sistemas de 32-bit "
 
 #: usr/lib/ddm/ddm.py:244
 msgid "Activate"
-msgstr "Activado"
+msgstr "Activar"
 
 #: usr/lib/ddm/ddm.py:244
 msgid "Driver"
@@ -309,7 +288,9 @@ msgstr " (recomendado)"
 #: usr/lib/ddm/ddm.py:272
 #, python-format
 msgid "Check loaded driver / available driver: %(ldrv)s / %(adrv)s"
-msgstr "Compruebe el  controlador cargado / controlador disponible: %(ldrv)s / %(adrv)s"
+msgstr ""
+"Compruebe el  controlador cargado / controlador disponible: %(ldrv)s / "
+"%(adrv)s"
 
 #: usr/lib/ddm/ddm.py:274
 #, python-format
@@ -319,7 +300,7 @@ msgstr "Seleccione el controlador actual en la lista: %(drv)s"
 #: usr/lib/ddm/ddm.py:287
 #, python-format
 msgid "Manufacturer image path: %(path)s"
-msgstr "Manufacturer image path: %(path)s"
+msgstr "Ruta de la imagen del fabricante: %(path)s"
 
 #: usr/lib/ddm/ddm.py:304
 msgid "Unknown driver"
@@ -331,9 +312,10 @@ msgid ""
 "\n"
 "Please remove before installing drivers with DDM."
 msgstr ""
-"Controlador desconocido ecnontrado.\n"
+"Controlador desconocido encontrado.\n"
 "\n"
-"Por favor desinstálelo antes de continuar instalando controladores a través del DDM."
+"Por favor desinstálelo antes de continuar instalando controladores a través "
+"del DDM."
 
 #: usr/lib/ddm/ddm.py:348
 msgid "Driver activation"
@@ -350,8 +332,7 @@ msgstr ""
 "\n"
 "%(drv)s"
 
-#: usr/lib/ddm/ddm.py:353
-#: usr/lib/ddm/ddm.py:490
+#: usr/lib/ddm/ddm.py:353 usr/lib/ddm/ddm.py:490
 msgid "Locked"
 msgstr "Bloqueado"
 
@@ -364,12 +345,13 @@ msgid ""
 msgstr ""
 "No se puede bloquear %(file)s.\n"
 "\n"
-"Cierre cualquier programa que esté bloqueando el archivo e intente nuevamente."
+"Cierre cualquier programa que esté bloqueando el archivo e intente "
+"nuevamente."
 
 #: usr/lib/ddm/ddm.py:358
 #, python-format
 msgid "Driver to install: %(drv)s"
-msgstr "Controlador para instalar: %(drv)s"
+msgstr "Controlador a instalar: %(drv)s"
 
 #: usr/lib/ddm/ddm.py:427
 msgid "Driver installed"
@@ -415,7 +397,7 @@ msgstr "Iniciar la instalación automática de controladores"
 #: usr/lib/ddm/execcmd.py:18
 #, python-format
 msgid "Command to execute: %(cmd)s"
-msgstr "Comando para ejecutar: %(cmd)s"
+msgstr "Comando a ejecutar: %(cmd)s"
 
 #: usr/lib/ddm/functions.py:113
 #, python-format
@@ -425,7 +407,7 @@ msgstr "Buscar extensiones: %(ext)s"
 #: usr/lib/ddm/functions.py:131
 #, python-format
 msgid "File with extension found: %(path)s"
-msgstr "Archivo con extensiones encontrado: %(path)s"
+msgstr "Archivo con extensión encontrado: %(path)s"
 
 #: usr/lib/ddm/functions.py:136
 #, python-format
@@ -455,20 +437,20 @@ msgstr "Paquete no encontrado: %(package)s"
 #: usr/lib/ddm/functions.py:429
 #, python-format
 msgid "Could not get status info for package: %(package)s"
-msgstr "No se puede obtener información sobre el estado del paquete: %(package)s"
+msgstr ""
+"No se puede obtener información sobre el estado del paquete: %(package)s"
 
 #: usr/lib/ddm/intel.py:39
 #, python-format
 msgid "Intel card found: %(card)s"
-msgstr "Tarjeta Intel  encontrada: %(card)s"
+msgstr "Tarjeta Intel encontrada: %(card)s"
 
 #: usr/lib/ddm/intel.py:45
 #, python-format
 msgid "Intel driver found: %(drv)s (%(status)s)"
 msgstr "Controlador Intel encontrado: %(drv)s (%(status)s)"
 
-#: usr/lib/ddm/intel.py:77
-#: usr/lib/ddm/via.py:76
+#: usr/lib/ddm/intel.py:77 usr/lib/ddm/via.py:76
 #, python-format
 msgid "Remove package: %(drv)s"
 msgstr "Desinstalar paquete: %(drv)s"
@@ -480,26 +462,27 @@ msgstr "Controlador de pantalla Intel"
 #: usr/lib/ddm/main.py:66
 #, python-format
 msgid "Write debug information to file: %(path)s"
-msgstr "Write debug information to file: %(path)s"
+msgstr "Escribir información de depuración al archivo: %(path)s"
 
 #: usr/lib/ddm/main.py:70
 #, python-format
 msgid "Machine info: %(info)s"
-msgstr "Machine info: %(info)s"
+msgstr "Información de la máquina: %(info)s"
 
 #: usr/lib/ddm/main.py:72
 #, python-format
 msgid "DDM version: %(version)s"
-msgstr "DDM versión: %(version)s"
+msgstr "versión de DDM: %(version)s"
 
 #: usr/lib/ddm/main.py:77
 msgid "apt-listbugs is installed and might interfere with driver installation"
-msgstr "apt-listbugs está instalado y puede interferir con la instalación del controlador"
+msgstr ""
+"apt-listbugs está instalado y puede interferir con la instalación del "
+"controlador"
 
-#: usr/lib/ddm/main.py:100
-#: usr/lib/ddm/main.py:102
+#: usr/lib/ddm/main.py:100 usr/lib/ddm/main.py:102
 msgid "Please enter your password"
-msgstr "Por favor ingrese su contraseña"
+msgstr "Por favor introduzca su contraseña"
 
 #: usr/lib/ddm/main.py:105
 #, python-format
@@ -508,7 +491,7 @@ msgstr "Comando de inicio: %(cmd)s"
 
 #: usr/lib/ddm/main.py:108
 msgid "DDM - Live environment"
-msgstr "DDM - Live environment"
+msgstr "DDM - entorno Live"
 
 #: usr/lib/ddm/main.py:109
 msgid ""
@@ -516,13 +499,13 @@ msgid ""
 "\n"
 "To force start, use the --force argument"
 msgstr ""
-"DDM cannot run in a live environment\n"
+"DDM no se puede ejecutar en un entorno live\n"
 "\n"
-"To force start, use the --force argument"
+"Para forzar su inicio, utilice el argumento --force"
 
 #: usr/lib/ddm/main.py:113
 msgid "DDM - Debian based"
-msgstr "DDM - Debian based"
+msgstr "DDM - basado en Debian"
 
 #: usr/lib/ddm/main.py:114
 msgid ""
@@ -530,9 +513,9 @@ msgid ""
 "\n"
 "To force start, use the --force argument"
 msgstr ""
-"No se puede determinar la base de la distribución (debian o ubuntu)\n"
+"No se puede determinar la distribución base (debian o ubuntu)\n"
 "\n"
-"Para forzar el arranque, use el --force argument"
+"Para forzar el arranque, use el argumento --force"
 
 #: usr/lib/ddm/main.py:118
 msgid "DDM - Internet"
@@ -546,7 +529,7 @@ msgid ""
 msgstr ""
 "Parece que no cuenta con una conexión de internet\n"
 "\n"
-"Para forzar el arranque, use el --force argument"
+"Para forzar el arranque, use el argumento --force"
 
 #: usr/lib/ddm/nvidia.py:35
 msgid "Update apt"
@@ -571,7 +554,7 @@ msgstr "Configurar Nvidia..."
 
 #: usr/lib/ddm/nvidia.py:127
 msgid "Removing Nvidia drivers"
-msgstr "Desinstalar controladores Nvidia "
+msgstr "Desinstalando controladores Nvidia "
 
 #: usr/lib/ddm/nvidia.py:152
 msgid "Nvidia display driver"
@@ -619,8 +602,7 @@ msgstr "Distribución: %(dist)s"
 msgid "Multi-core already installed: %(package)s"
 msgstr "Multi-core ya instalado: %(package)s"
 
-#: usr/lib/ddm/pae.py:59
-#: usr/lib/ddm/pae.py:73
+#: usr/lib/ddm/pae.py:59 usr/lib/ddm/pae.py:73
 msgid "PAE capable system"
 msgstr "Sistema capaz PAE "
 
@@ -631,7 +613,8 @@ msgstr "Encontrado single-core kernel: %(kernel)s"
 
 #: usr/lib/ddm/pae.py:65
 msgid "Multi-core system running single-core kernel found"
-msgstr "Encontrado sistema Multi-core corriendo kernel para sistemas single-core"
+msgstr ""
+"Encontrado sistema Multi-core corriendo kernel para sistemas single-core"
 
 #: usr/lib/ddm/pae.py:70
 msgid "PAE not installed"
@@ -652,7 +635,7 @@ msgstr "Comando para instalar el kernel PAE: %(cmd)s"
 
 #: usr/lib/ddm/pae.py:96
 msgid "Done installing PAE"
-msgstr "Se ha instalado el PAE"
+msgstr "Se ha instalado PAE"
 
 #: usr/lib/ddm/pae.py:107
 msgid "Not running pae, continue removal"
@@ -669,60 +652,64 @@ msgstr "Se ha eliminado PAE"
 
 #: usr/lib/ddm/pae.py:115
 msgid "Cannot remove PAE when running PAE"
-msgstr "No se puede desinstalar el PAE cuando se encuentra corriendo"
+msgstr "No se puede desinstalar PAE cuando se encuentra corriendo"
 
 #: usr/lib/ddm/treeview.py:59
 #, python-format
 msgid "Create list store eval string: %(eval)s"
-msgstr "Crear cadena de list store eval: %(eval)s"
+msgstr "Crear cadena de evaluación de almacén de listas: %(eval)s"
 
 #: usr/lib/ddm/treeview.py:64
 msgid "Clear existing list store"
-msgstr "Limpiarla list store existente"
+msgstr "Limpiar el almacén de listas existente"
 
 #: usr/lib/ddm/treeview.py:73
 #, python-format
 msgid "First item is column name (multi-column list): %(iscolname)s"
-msgstr "El primer elemento es el nombre de la columna (multi-column list): %(iscolname)s"
+msgstr ""
+"El primer elemento es el nombre de la columna (lista multi-columna): "
+"%(iscolname)s"
 
 #: usr/lib/ddm/treeview.py:79
 #, python-format
 msgid "First item is column name (single-column list): %(iscolname)s"
-msgstr "El primer es el nombre de la columna (single-column list): %(iscolname)s"
+msgstr ""
+"El primer es el nombre de la columna (lista columna-simple): %(iscolname)s"
 
 #: usr/lib/ddm/treeview.py:84
 #, python-format
 msgid "Create column names: %(cols)s"
-msgstr "Crear los nombres d elas columnas: %(cols)s"
+msgstr "Crear nombres de columnas: %(cols)s"
 
 #: usr/lib/ddm/treeview.py:91
 msgid "First item is column name: skip first item"
-msgstr "El primer elemento es el nombre de la columna: saltar el primer elemento"
+msgstr ""
+"El primer elemento es el nombre de la columna: saltar el primer elemento"
 
 #: usr/lib/ddm/treeview.py:119
 #, python-format
 msgid "Add data to list store: %(data)s"
-msgstr "Ingresar datos a la list store: %(data)s"
+msgstr "Añadir datos al almacén de listas: %(data)s"
 
 #: usr/lib/ddm/treeview.py:123
 #, python-format
 msgid "Add data to top of list store: %(totop)s"
-msgstr "Ingresar datos al inicio de la list store: %(totop)s"
+msgstr "Añadir datos al inicio del almacén de listas: %(totop)s"
 
 #: usr/lib/ddm/treeview.py:126
 #, python-format
 msgid "Add data to bottom of list store: %(tobottom)s"
-msgstr "Ingresar datos al final de la list store: %(tobottom)s"
+msgstr "Añadir datos al final del almacén de listas: %(tobottom)s"
 
 #: usr/lib/ddm/treeview.py:134
 #, python-format
 msgid "Last visible column nr: %(colnr)d"
-msgstr "Última columna visible nr: %(colnr)d"
+msgstr "Nº de la última columna visible: %(colnr)d"
 
 #: usr/lib/ddm/treeview.py:143
 #, python-format
 msgid "Hide column nr: %(colnr)d"
-msgstr "Ocultar columna nr: %(colnr)d"
+msgstr "Ocultar la columna nº: %(colnr)d"
 
 #: usr/lib/ddm/treeview.py:168
 #, python-format
@@ -731,17 +718,17 @@ msgstr "Crear columna: %(col)s"
 
 #: usr/lib/ddm/treeview.py:178
 msgid "Check box found: add toggle function"
-msgstr "Marcar la casilla encontrada: ingrese función toggle"
+msgstr "Casilla de verificación encontrada: añadir función de conmutación"
 
 #: usr/lib/ddm/treeview.py:183
 #, python-format
 msgid "Last column fills treeview: %(colnr)d"
-msgstr "Last column fills treeview: %(colnr)d"
+msgstr "La última columna rellena el árbol: %(colnr)d"
 
 #: usr/lib/ddm/treeview.py:188
 #, python-format
 msgid "Column added: %(col)s"
-msgstr "Columnas añadidas: %(col)s"
+msgstr "Columna añadida: %(col)s"
 
 #: usr/lib/ddm/treeview.py:190
 #, python-format
@@ -750,7 +737,7 @@ msgstr "La columna ya existe: %(col)s"
 
 #: usr/lib/ddm/treeview.py:197
 msgid "Add Liststore to Treeview"
-msgstr "Add Liststore to Treeview"
+msgstr "Añadir Liststore al Treeview"
 
 #: usr/lib/ddm/treeview.py:205
 #, python-format
@@ -769,7 +756,7 @@ msgstr "Controlador Via encontrado: %(drv)s (%(status)s)"
 
 #: usr/lib/ddm/via.py:95
 msgid "Chrome display driver"
-msgstr "Controlador de pantalla de cromo"
+msgstr "Controlador de pantalla Chrome"
 
 #: usr/lib/ddm/xorg.py:42
 #, python-format
@@ -806,7 +793,7 @@ msgstr "Descomentar blacklist %(module)s en: %(path)s"
 #: usr/lib/ddm/xorg.py:159
 #, python-format
 msgid "Remove blacklist %(module)s from: %(path)s"
-msgstr "Eliminar blacklist %(module)s desde: %(path)s"
+msgstr "Eliminar blacklist %(module)s de: %(path)s"
 
 #: usr/lib/ddm/xorg.py:179
 #, python-format
@@ -817,4 +804,3 @@ msgstr "Blacklist %(module)s encontrado en: %(path)s"
 #, python-format
 msgid "Commented blacklist %(module)s found in: %(path)s"
 msgstr "Blacklist comentado %(module)s encontrado en: %(path)s"
-
