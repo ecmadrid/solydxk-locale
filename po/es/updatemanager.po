@@ -1,704 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: linuxmint\n"
+"Project-Id-Version: Updatemanager 2.4.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-28 10:01+0200\n"
-"PO-Revision-Date: 2013-08-17 19:19+0100\n"
-"Last-Translator: Schoelje <schoelje@solydxk.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
-"Language: es\n"
+"POT-Creation-Date: 2014-07-04 19:48+0200\n"
+"PO-Revision-Date: 2014-10-22 14:00+0100\n"
+"Last-Translator: Juan Sánchez <jsrmadrid@gmail.com>\n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-04-29 10:05+0000\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:100
-#: usr/lib/solydxk/updatemanager/updatemanager.py:570
-msgid "Ignored packages"
+#: usr/bin/updatemanager:18
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:115
+msgid "Please enter your password"
+msgstr "Por favor, introduzca su contraseña"
+
+#: usr/bin/updatemanager:82
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:51
+msgid "Update Manager"
+msgstr "Gestor de Actualizaciones"
+
+#: usr/bin/updatemanager:83
+msgid ""
+"Update Manager cannot be started in a live environment\n"
+"You can use the --force argument to start UM in a live environment"
+msgstr ""
+"El Gestor de Actualizaciones no puede ser iniciado en un entorno live\n"
+"Puede utilizar el argumento --force para iniciarlo en en un entorno live"
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:36
+msgid "Refreshing update list..."
+msgstr "Refrescando la lista de actualizaciones..."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:38
+msgid "Installing updates..."
+msgstr "Instalando actualizaciones..."
+
+#: usr/lib/solydxk/updatemanager/umnotifier.py:49
+msgid "Sources changed: start UM to refresh"
+msgstr "Orígenes cambiados: iniciar el GA para actualizar"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:92
+msgid "Update Manager Preferences"
+msgstr "Preferencias del Gestor de Actualizaciones"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:93
+msgid "Save mirrors"
+msgstr "Guardar repositorios espejo"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:94
+msgid "Check mirrors speed"
+msgstr "Chequear velocidad de repositorios espejo"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:95
+msgid "Remove"
+msgstr "Eliminar"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:96
+msgid "Blacklist"
+msgstr "Retener"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:97
+msgid "Repository mirrors"
+msgstr "Repositorios espejo"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:98
+msgid "General"
+msgstr "General"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:99
+msgid "Hide maintenance"
+msgstr "Ocultar mantenimiento"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:100
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:102
+msgid "Blacklisted packages"
 msgstr "Paquetes ignorados"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:108
-msgid "Date"
-msgstr "Fecha"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:111
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1202
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1316
-msgid "Package"
-msgstr "Paquete"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:114
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1206
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1322
-msgid "Old version"
-msgstr "Versión antigua"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:117
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1210
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1328
-msgid "New version"
-msgstr "Versión nueva"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:137
-#: usr/lib/solydxk/updatemanager/updatemanager.py:332
-#: usr/lib/solydxk/updatemanager/updatemanager.py:551
-#: usr/lib/solydxk/updatemanager/updatemanager.py:737
-#: usr/lib/solydxk/updatemanager/updatemanager.py:769
-#: usr/lib/solydxk/updatemanager/updatemanager.py:946
-#: usr/lib/solydxk/updatemanager/updatemanager.py:964
-#: usr/lib/solydxk/updatemanager/updatemanager.py:966
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1173
-msgid "Update Manager"
-msgstr "Gestor de actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:138
-msgid "Software Updates"
-msgstr "Actualizaciones de software"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:139
-msgid "Show and install available updates"
-msgstr "Muestra e instala las actualizaciones disponibles"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:298
-#: usr/lib/solydxk/updatemanager/updatemanager.py:317
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1098
-msgid "No updates selected"
-msgstr "No se seleccionó ninguna actualización"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:319
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1100
-#, python-format
-msgid "%(selected)d update selected (%(size)s)"
-msgstr "%(selected)d actualización seleccionada (%(size)s)"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:321
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1102
-#, python-format
-msgid "%(selected)d updates selected (%(size)s)"
-msgstr "%(selected)d actualizaciones seleccionadas (%(size)s)"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:551
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1291
-msgid "Preferences"
-msgstr "Preferencias"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:553
-msgid "Auto-Refresh"
-msgstr "Auto-actualizar"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:554
-msgid "Refresh the list of updates every:"
-msgstr "Actualizar la lista de actualizaciones cada:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:555
-msgid ""
-"Note: The list only gets refreshed while the update manager window is closed "
-"(system tray mode)."
-msgstr ""
-"Nota: Esta lista sólo se actualiza cuando la ventana del gestor de "
-"actualizaciones está cerrada (en el área de notificación)."
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:557
-msgid "Update Method"
-msgstr "Método de actualización"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:558
-msgid "Icons"
-msgstr "Iconos"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:559
-msgid "Icon"
-msgstr "Icono"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:560
-msgid "Status"
-msgstr "Estado"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:561
-msgid "New Icon"
-msgstr "Icono nuevo"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:562
-msgid "Busy"
-msgstr "Ocupado"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:563
-msgid "System up-to-date"
-msgstr "Sistema actualizado"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:564
-msgid "Updates available"
-msgstr "Actualizaciones disponibles"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:565
-msgid "Error"
-msgstr "Error"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:566
-msgid "Unknown state"
-msgstr "Estado desconocido"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:567
-msgid "Applying updates"
-msgstr "Aplicando actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:568
-msgid "Startup delay (in seconds):"
-msgstr "Retraso en el arranque (en segundos):"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:569
-msgid "Internet check (domain name or IP address):"
-msgstr "Comprobación de Internet (nombre de dominio o dirección IP):"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:571
-msgid "Repository mirrors"
-msgstr "Repositorios de mirrors"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:572
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:101
 msgid "Select the fastest production repository"
-msgstr "Seleccione el repositorio de producción más rápido"
+msgstr "Selecionar el repositorio de producción más rápido"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:574
-msgid "Check mirrors speed"
-msgstr "Verificar la velocidad del mirror"
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:103
+msgid "Available packages"
+msgstr "Paquetes disponibles"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:575
-msgid ""
-"Include updates which require the installation or the removal of other "
-"packages"
-msgstr ""
-"Incluir actualizaciones que requieran la instalación o eliminación de otros "
-"paquetes"
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:104
+msgid "Global settings"
+msgstr "Opciones globales"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:592
-msgid "minutes"
-msgstr "minutos"
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:105
+msgid "Wait for user input for"
+msgstr "Esperar a la entrada del usuario"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:593
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:106
+msgid "seconds (0 = disable automatic answering)"
+msgstr "segundos  (0 = deshabilitar respuesta automática)"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:107
+msgid "Check status every"
+msgstr "Chequear el estado cada"
+
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:108
 msgid "hours"
 msgstr "horas"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:594
-msgid "days"
-msgstr "días"
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:220
+msgid ""
+"You are pointing to the testing repositories.\n"
+"\n"
+"Only production repositories do have mirrors.\n"
+"Please change to production manually."
+msgstr ""
+"Está apuntando al repositorio de pruebas.\n"
+"\n"
+"Sólo los repositorios de producción tienen espejos.\n"
+"Por favor, cambie manualmente a producción."
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:636
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:270
 msgid "Current"
 msgstr "Actual"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:636
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:270
 msgid "Country"
 msgstr "País"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:636
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:270
 msgid "Repository"
 msgstr "Repositorio"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:636
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:270
 msgid "URL"
 msgstr "URL"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:636
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:270
 msgid "Speed"
 msgstr "Velocidad"
 
-#: usr/lib/solydxk/updatemanager/updatemanager.py:692
-msgid "Please enter a package name:"
-msgstr "Introduzca el nombre del paquete:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:693
-msgid "Ignore a package"
-msgstr "Ignorar un paquete"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:697
-msgid "Package name:"
-msgstr "Nombre del paquete:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:699
-msgid "All available upgrades for this package will be ignored."
-msgstr ""
-"Todas las actualizaciones disponibles para este paquete serán ignoradas."
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:737
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1306
-msgid "History of updates"
-msgstr "Historial de actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:769
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1263
-msgid "Update Pack Info"
-msgstr "Actualizar Información del Paquete"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:772
-msgid "Your system configuration:"
-msgstr "Configuración de su sistema:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:773
-msgid "Current Update Pack available:"
-msgstr "Paquete de actualizaciones disponible:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:774
-msgid "Latest Update Pack used by this system:"
-msgstr "Último paquete de actualización utilizado por este sistema:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:777
-msgid "Could not identify your APT sources"
-msgstr "No se pudo identificar sus fuentes APT"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:778
-#: usr/lib/solydxk/updatemanager/updatemanager.py:779
-msgid "N/A"
-msgstr "N/D"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:851
-#: usr/lib/solydxk/updatemanager/updatemanager.py:855
-msgid "Your system is pointing to "
-msgstr "Su sistema apunta a "
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:851
-#: usr/lib/solydxk/updatemanager/updatemanager.py:855
-msgid "These repositories conflict with each other"
-msgstr "Estos repositorios tienen conflicto con los demás"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:859
-msgid "Your system is not pointing to the SolydXK repositories"
-msgstr "Su sistema no está apuntando a los repositorios de SolydXK"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:859
-#: usr/lib/solydxk/updatemanager/updatemanager.py:863
-msgid "Add \"deb http://"
-msgstr "Añadir \"deb http://"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:863
-msgid "Your system is not pointing to any Debian repository"
-msgstr "Su sistema no apunta a ninguna fuente de la distribución"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:867
-msgid "Your system is pointing directly to Debian"
-msgstr "Su sistema apunta directamente a Debian"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:867
-msgid "This is only recommended for experienced users"
-msgstr "Esto solo se recomienda para usuarios expertos"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:871
-#: usr/lib/solydxk/updatemanager/updatemanager.py:884
-msgid "Your system is pointing directly at deb-multimedia.org"
-msgstr "Su sistema apunta directamente a deb-multimedia.org"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:871
-#: usr/lib/solydxk/updatemanager/updatemanager.py:884
-msgid ""
-"Replace \"deb http://deb-multimedia.org testing main non-free\" with \"deb "
-"http://"
-msgstr ""
-"Reemplazar  \"deb http://deb-multimedia.org testing main non-free\" por "
-"\"deb http://"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:874
-#: usr/lib/solydxk/updatemanager/updatemanager.py:887
-msgid "Your system is pointing directly at security.debian.org"
-msgstr "Su sistema apunta directamente a security. debian.org"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:874
-#: usr/lib/solydxk/updatemanager/updatemanager.py:887
-msgid ""
-"Replace \"deb http://security.debian.org testing/updates main contrib non-"
-"free\" with \"deb http://"
-msgstr ""
-"Reemplazar \"deb http://security.debian.org testing/updates main contrib non-"
-"free\" por \"deb http://"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:877
-msgid "Some of your repositories point to production, others point to testing"
-msgstr ""
-"Algunos de sus repositorios apuntan a producción, otros lo hacen a testing"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:877
-#: usr/lib/solydxk/updatemanager/updatemanager.py:890
-msgid "Please check your APT sources."
-msgstr "Por favor verifique sus fuentes APT"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:880
-msgid "Your system is pointing to the \"SolydXK testing\" repository"
-msgstr "Su sistema apunta al repositorio \"SolydXK testing\" "
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:880
-msgid "This is only recommend for experienced users"
-msgstr "Esto solo se recomienda para usuarios expertos"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:890
-msgid ""
-"Some of your repositories point to production, but multimedia to testing"
-msgstr ""
-"Algunos de sus repositorios apuntan a producción, pero multimedia lo hace a "
-"testing"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:893
-msgid "Your system is pointing to the \"SolydXK production\" repository"
-msgstr "Su sistema apunta al repositorio de   \"SolydXK production\" "
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:946
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1309
-msgid "Information"
-msgstr "Información"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:951
-msgid "Permissions:"
-msgstr "Permisos:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:952
-msgid "Process ID:"
-msgstr "ID del proceso:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:953
-msgid "Log file:"
-msgstr "Archivo de registro:"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:964
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1348
-msgid "About"
-msgstr "Acerca de"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1029
-msgid "Please enter your password to start the update manager"
-msgstr "Introduzca su contraseña para iniciar el gestor de actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1105
-#: usr/lib/solydxk/updatemanager/threadClasses.py:586
-msgid "B"
-msgstr "B"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1107
-#: usr/lib/solydxk/updatemanager/threadClasses.py:588
-msgid "KB"
-msgstr "KB"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1109
-#: usr/lib/solydxk/updatemanager/threadClasses.py:590
-msgid "MB"
-msgstr "MB"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1111
-#: usr/lib/solydxk/updatemanager/threadClasses.py:592
-msgid "GB"
-msgstr "GB"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1125
-msgid "Ignore updates for this package"
-msgstr "Ignorar actualizaciones para este paquete"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1168
-#: usr/lib/solydxk/updatemanager/threadClasses.py:302
-#: usr/lib/solydxk/updatemanager/threadClasses.py:376
-msgid "Checking for updates"
-msgstr "Comprobando actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1197
-msgid "Upgrade"
-msgstr "Actualizar"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1214
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1334
-msgid "Size"
-msgstr "Tamaño"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1264
-msgid "Install Updates"
-msgstr "Instalar actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1265
-msgid "Refresh"
-msgstr "Actualizar"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1266
-msgid "Select All"
-msgstr "Seleccionar todo"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1267
-msgid "Clear"
-msgstr "Limpiar"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1268
-msgid "Description"
-msgstr "Descripción"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1269
-msgid "Changelog"
-msgstr "Registro de cambios"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1279
-msgid "_File"
-msgstr "_Archivo"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1283
-msgid "Close"
-msgstr "Cerrar"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1287
-msgid "_Edit"
-msgstr "_Editar"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1298
-msgid "Software sources"
-msgstr "Orígenes del software"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1302
-msgid "_View"
-msgstr "_Ver"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1312
-msgid "Visible columns"
-msgstr "Columnas visibles"
-
-#: usr/lib/solydxk/updatemanager/updatemanager.py:1344
-msgid "_Help"
-msgstr "_Ayuda"
-
-#: usr/lib/solydxk/updatemanager/changelogRetriever.py:30
-msgid "Downloading changelog..."
-msgstr "Descargando lista de cambios..."
-
-#: usr/lib/solydxk/updatemanager/changelogRetriever.py:56
-#: usr/lib/solydxk/updatemanager/changelogRetriever.py:67
-msgid "No changelog available"
-msgstr "Registro de cambios no disponible"
-
-#: usr/lib/solydxk/updatemanager/changelogRetriever.py:67
-msgid ""
-"Click on Edit->Software Sources and tick the 'Source code' option to enable "
-"access to the changelogs"
-msgstr ""
-"Pulse en Editar->Orígenes del software y marque la opción «Código fuente» "
-"para acceder a las listas de cambios"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:153
-msgid "This upgrade will trigger additional changes"
-msgstr "Esta actualización realizará cambios adicionales"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:162
-msgid "The following package will be removed:"
-msgstr "Se eliminará el siguiente paquete:"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:164
-#, python-format
-msgid "The following %d packages will be removed:"
-msgstr "Se eliminarán los siguientes %d paquetes:"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:192
-msgid "The following package will be installed:"
-msgstr "Se instalará el siguiente paquete:"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:194
-#, python-format
-msgid "The following %d packages will be installed:"
-msgstr "Se instalarán los siguientes %d paquetes:"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:235
-msgid "Installing updates"
-msgstr "Instalando actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:255
-msgid "Please wait, this can take some time"
-msgstr "Espere por favor, esto puede tardar algún tiempo"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:257
-msgid "Update is complete"
-msgstr "La actualización se ha completado"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:297
-msgid "Please enter your password to restart the update manager"
-msgstr "Introduzca su contraseña para reiniciar el gestor de actualizaciones"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:326
-msgid "Could not install the security updates"
-msgstr "No se pudieron instalar las actualizaciones de seguridad"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:365
-msgid "Starting refresh..."
-msgstr "Comenzando la recarga..."
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:397
-#: usr/lib/solydxk/updatemanager/threadClasses.py:398
-msgid "Another application is using APT"
-msgstr "Otra aplicación está utilizando APT"
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:408
-msgid "Finding the list of updates..."
-msgstr "Buscando la lista de actualizaciones..."
-
-#: usr/lib/solydxk/updatemanager/threadClasses.py:438
-#: usr/lib/solydxk/updatemanager/threadClasses.py:439
-#: usr/lib/solydxk/updatemanager/threadClasses.py:554
-#: usr/lib/solydxk/updatemanager/threadClasses.py:555
+#: usr/lib/solydxk/updatemanager/updatemanagerpref.py:395
+msgid "The new settings will take effect after UM restart."
+msgstr "La nueva configuración se aplicará después de reiniciar el GA."
+
+#: usr/lib/solydxk/updatemanager/umrefresh.py:29
+#: usr/lib/solydxk/updatemanager/updatemanager.py:104
 msgid "Your system is up to date"
 msgstr "Su sistema está actualizado"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:451
-#: usr/lib/solydxk/updatemanager/threadClasses.py:452
-#: usr/lib/solydxk/updatemanager/threadClasses.py:577
-#: usr/lib/solydxk/updatemanager/threadClasses.py:581
-msgid "Could not refresh the list of packages"
-msgstr "No se pudo actualizar la lista de paquetes"
+#: usr/lib/solydxk/updatemanager/umrefresh.py:30
+msgid "There are updates available"
+msgstr "Existen actualizaciones disponibles"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:518
-msgid "A new version of the update manager is available"
-msgstr "Una versión nueva del gestor de actualizaciones está disponible"
+#: usr/lib/solydxk/updatemanager/umrefresh.py:31
+msgid "There is an emergency update available"
+msgstr "Existe una actualización de emergencia disponible"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:526
+#: usr/lib/solydxk/updatemanager/umrefresh.py:32
+msgid "No internet connection"
+msgstr "Sin conexión a Internet"
+
+#: usr/lib/solydxk/updatemanager/umrefresh.py:33
+msgid "Unable to retrieve sources information"
+msgstr "Imposible obtener información de orígenes"
+
+#: usr/lib/solydxk/updatemanager/umrefresh.py:34
+msgid "New stable version available"
+msgstr "Nueva versión estable disponible"
+
+#: usr/lib/solydxk/updatemanager/umrefresh.py:39
+msgid "Refreshing..."
+msgstr "Actualizando..."
+
+#: usr/lib/solydxk/updatemanager/umrefresh.py:73
 #, python-format
-msgid "A new update pack is available (version: %s)"
-msgstr "Nueva actualización disponible (version: %s)"
+msgid "New UP: %s"
+msgstr "Nueva ACT: %s"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:535
-#, python-format
-msgid "1 recommended update available (%(size)s)"
-msgstr "1 actualización recomendada disponible (%(size)s)"
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:48
+#: usr/lib/solydxk/updatemanager/updatemanager.py:99
+msgid "Refresh"
+msgstr "Actualizar"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:537
-#, python-format
-msgid "1 recommended update available (%(size)s), 1 ignored"
-msgstr "1 actualización recomendada disponible (%(size)s), 1 ignorada"
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:49
+msgid "Quit"
+msgstr "Salir"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:539
-#, python-format
-msgid "1 recommended update available (%(size)s), %(ignored)d ignored"
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:57
+#: usr/lib/solydxk/updatemanager/updatemanager.py:102
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:89
+msgid "Refresh finished"
+msgstr "Actualización finalizada"
+
+#: usr/lib/solydxk/updatemanager/updatemanagertray.py:113
+msgid "Cannot quit: upgrade in progress"
+msgstr "Imposible salir: actualización en progreso"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:97
+msgid "SolydXK Update Manager"
+msgstr "Gestor de Actualizaciones de SolydXK"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:98
+msgid "Install"
+msgstr "Instalar"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:100
+msgid "Output"
+msgstr "Salida"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:101
+msgid "Information"
+msgstr "Información"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:103
+msgid "Packages"
+msgstr "Paquetes"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:105
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:106
+msgid "Execute"
+msgstr "Ejecutar"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:107
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:108
+msgid "Not needed"
+msgstr "No necesario"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:109
+msgid "Clean cache"
+msgstr "Borrar caché"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:110
+msgid "Downgrade"
+msgstr "Desactualizar"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:111
+msgid "Not available"
+msgstr "No disponible"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:112
+msgid "Old kernels"
+msgstr "Kernels antiguos"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:113
+msgid "Remove not needed packages."
+msgstr "Eliminar paquetes no necesarios."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:114
+msgid "Clean up the apt cache."
+msgstr "Limpiar la caché de apt."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:115
+msgid "Only lower version is available."
+msgstr "Sólo está disponible una vesión anterior."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:116
+msgid "Packages not in the repositories."
+msgstr "No se encuentran los paquetes en los repositorios."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:117
+msgid "Remove old kernels."
+msgstr "Eliminar kernels antiguos."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:118
+msgid ""
+"Make sure you create\n"
+"a system image before you\n"
+"continue (e.g. Clonezilla)."
 msgstr ""
-"1 actualización recomendada disponible (%(size)s), %(ignored)d ignoradas"
+"Asegúrese de crear\n"
+"una imagen del sistema antes\n"
+"de continuar (e.g. Clonezilla)."
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:542
-#, python-format
-msgid "%(recommended)d recommended updates available (%(size)s)"
-msgstr "%(recommended)d actualizaciones recomendadas disponibles (%(size)s)"
+#: usr/lib/solydxk/updatemanager/updatemanager.py:122
+msgid "The following packages will be upgraded:"
+msgstr "Los siguientes paquetes serán actualizados:"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:544
-#, python-format
-msgid "%(recommended)d recommended updates available (%(size)s), 1 ignored"
-msgstr ""
-"%(recommended)d actualizaciones recomendadas disponibles (%(size)s), 1 "
-"ignorada"
+#: usr/lib/solydxk/updatemanager/updatemanager.py:123
+msgid "The following NEW packages will be installed:"
+msgstr "Los siguientes paquetes NUEVOS serán instalados:"
 
-#: usr/lib/solydxk/updatemanager/threadClasses.py:546
+#: usr/lib/solydxk/updatemanager/updatemanager.py:124
+msgid "The following packages will be REMOVED:"
+msgstr "Los siguientes paquetes serán ELIMINADOS:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:125
+msgid "The following packages have been kept back:"
+msgstr "Los siguientes paquetes se han retenido:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:126
+msgid "The following packages are going to be downgraded:"
+msgstr "Los siguientes paqueres van a ser desactualizados:"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:187
+msgid "Gathering information..."
+msgstr "Obteniendo informacion..."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:201
+msgid "Version"
+msgstr "Versión"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:203
+msgid "UP"
+msgstr "ACT"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:246
+msgid "Continue installation?"
+msgstr "¿Continuar con la instalación?"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:247
+msgid "Continue emergency installation?"
+msgstr "¿Continuar con la instalación de emergencia?"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:376
 #, python-format
 msgid ""
-"%(recommended)d recommended updates available (%(size)s), %(ignored)d ignored"
+"You might need to run this several times.\n"
+"\n"
+"%s"
 msgstr ""
-"%(recommended)d actualizaciones recomendadas disponibles (%(size)s), "
-"%(ignored)d ignoradas"
+"Puede que necesite ejecutar esto varias veces.\n"
+"\n"
+"%s"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:60
+#: usr/lib/solydxk/updatemanager/updatemanager.py:382
 #, python-format
-msgid "Create list store eval string: %(eval)s"
-msgstr "Crear una cadena list store eval: %(eval)s"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:66
-msgid "Clear existing list store"
-msgstr "Limpiar la list store existente"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:76
-#, python-format
-msgid "First item is column name (multi-column list): %(iscolname)s"
+msgid ""
+"Removing not available packages may break your system!\n"
+"\n"
+"%s"
 msgstr ""
-"El primer elemento es el nombre de la columna (multi-column list): "
-"%(iscolname)s"
+"¡Eliminar paquetes no disponibles pude corromper su sistema!\n"
+"\n"
+"%s"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:83
+#: usr/lib/solydxk/updatemanager/updatemanager.py:388
 #, python-format
-msgid "First item is column name (single-column list): %(iscolname)s"
+msgid ""
+"Once removed you will not be able to boot these kernels!\n"
+"\n"
+"%s"
 msgstr ""
-"El primer elemento es el nombre de la columna (single-column list): "
-"%(iscolname)s"
+"¡Una vez eliminados no podrá arrancar estos kernels!\n"
+"\n"
+"%s"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:89
+#: usr/lib/solydxk/updatemanager/updatemanager.py:394
 #, python-format
-msgid "Create column names: %(cols)s"
-msgstr "Crear los nombres de columna: %(cols)s"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:97
-msgid "First item is column name: skip first item"
+msgid ""
+"Downgrading packages may break your system!\n"
+"\n"
+"%s"
 msgstr ""
-"El primer elemento es el nombre de la columna: saltar el primer elementoskip "
-"first item"
+"¡Desactualizar paquetes puede corromper su sistema!\n"
+"\n"
+"%s"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:126
+#: usr/lib/solydxk/updatemanager/updatemanager.py:431
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
+msgid "Package"
+msgstr "Paquete"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:431
+msgid "Installed"
+msgstr "Instalado"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:431
+msgid "Available"
+msgstr "Disponible"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:437
+msgid "Hit the Execute button to clean the cache."
+msgstr "Pulse el botón Ejecutar para limpiar la caché."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:472
+msgid ""
+"\n"
+"did not return any results."
+msgstr ""
+"\n"
+"no devuelve ningún resultado."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:490
+msgid ""
+"Do you want to completely clean the apt cache?\n"
+"\n"
+"When No, only unavailable installation packages are removed."
+msgstr ""
+"¿Desea limpiar completamente la caché de apt?\n"
+"\n"
+"Sí elige No, sólo se eliminarán los paquetes de instalación no disponibles."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:496
+msgid "Apt cache has been cleaned."
+msgstr "La caché de apt ha sido eliminada."
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:525
+msgid "Execute maintenance changes?"
+msgstr "¿Ejecutar cambios de mantenimiento?"
+
+#: usr/lib/solydxk/updatemanager/updatemanager.py:635
 #, python-format
-msgid "Add data to list store: %(data)s"
-msgstr "Ingresar datos a la list store: %(data)s"
+msgid ""
+"Another program is locking the apt cache\n"
+"\n"
+"Please, close the program before refreshing:\n"
+"* %s"
+msgstr ""
+"Otro programa está bloqueando la caché de apt\n"
+"\n"
+"por favor, cierre el programa antes de actualizar:\n"
+"* %s"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:131
-#, python-format
-msgid "Add data to top of list store: %(totop)s"
-msgstr "Ingresar datos al inicio de la list store: %(totop)s"
+#: usr/lib/solydxk/updatemanager/updatemanager.py:691
+msgid "blacklisted"
+msgstr "retenido"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:135
-#, python-format
-msgid "Add data to bottom of list store: %(tobottom)s"
-msgstr "Ingresar datos al final de la list store: %(tobottom)s"
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
+msgid "Current version"
+msgstr "Versión actual"
 
-#: usr/lib/solydxk/updatemanager/treeview.py:162
-#, python-format
-msgid "Create column: %(col)s"
-msgstr "Crear columna: %(col)s"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:173
-msgid "Check box found: add toggle function"
-msgstr "Marque la casilla encontrada: añadir la función toggle"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:179
-#, python-format
-msgid "Last column fills treeview: %(colnr)d"
-msgstr "Last column fills treeview: %(colnr)d"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:185
-#, python-format
-msgid "Column added: %(col)s"
-msgstr "Columna añadida: %(col)s"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:188
-#, python-format
-msgid "Column already exists: %(col)s"
-msgstr "La columna ya existe: %(col)s"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:196
-msgid "Add Liststore to Treeview"
-msgstr "Ingrese la Liststore a Treeview"
-
-#: usr/lib/solydxk/updatemanager/treeview.py:205
-#, python-format
-msgid "Scrolled to selected row: %(row)d"
-msgstr "Desplazado a la fila seleccionada: %(row)d"
-
-#~ msgid ""
-#~ "Add 'deb http://debian.linuxmint.com/latest testing main contrib non-"
-#~ "free' to your APT sources"
-#~ msgstr ""
-#~ "Añada 'deb http://debian.linuxmint.com/latest testing main contrib non-"
-#~ "free' a sus fuentes APT"
-
-#~ msgid ""
-#~ "Add 'deb http://packages.linuxmint.com/ debian main upstream import' to "
-#~ "your APT sources"
-#~ msgstr ""
-#~ "Añada 'deb http://packages.linuxmint.com/ debian main upstream import' a "
-#~ "sus fuentes APT"
-
-#~ msgid "Log file"
-#~ msgstr "Archivo de registro"
-
-#~ msgid ""
-#~ "Your system is pointing to debian.linuxmint.com/latest and debian."
-#~ "linuxmint.com/incoming"
-#~ msgstr ""
-#~ "Su sistema apunta a debian.linuxmint.com/latest y debian.linuxmint.com/"
-#~ "incoming"
-
-#~ msgid "Your system is pointing to ftp.debian.org and debian.linuxmint.com"
-#~ msgstr "Su sistema apunta a ftp.debian.org y debian.linuxmint.com"
-
-#~ msgid ""
-#~ "Your system is pointing to the 'Linux Mint Debian Incoming' repository"
-#~ msgstr "Su sistema apunta al repositorio 'Linux Mint Debian Incoming'"
-
-#~ msgid "Your system is pointing to the 'Linux Mint Debian Latest' repository"
-#~ msgstr "Su sistema apunta al repositorio 'Linux Mint Debian Latest'"
+#: usr/lib/solydxk/updatemanager/updatemanager.py:693
+msgid "New version"
+msgstr "Nueva versión"
