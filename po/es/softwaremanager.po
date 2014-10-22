@@ -75,7 +75,7 @@ msgstr "Actualizando la cache"
 #: usr/lib/solydxk/softwaremanager/softwaremanager.py:264
 #: usr/lib/solydxk/softwaremanager/softwaremanager.py:266
 msgid "No role set"
-msgstr "No se ha asignado un role"
+msgstr "No se ha asignado un rol"
 
 #: usr/lib/solydxk/softwaremanager/softwaremanager.py:384
 msgid "_File"
